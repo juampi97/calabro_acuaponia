@@ -5,7 +5,7 @@
 }
 a {
   text-decoration: none;
-  color: black;
+  color: red;
 }
 ul,
 ol {
@@ -363,7 +363,7 @@ ol {
 }
 .slider_empresas_container {
   display: flex;
-  animation: scroll 30s linear infinite;
+  animation: scroll 20s linear infinite;
   width: calc(200px * 10);
 }
 .empresas_wrapper {
@@ -1221,6 +1221,138 @@ ol {
     flex-wrap: nowrap;
     justify-content: space-around;
   }
+  /* Fin personalizacion About us */
+  .impactoAmbiental_wrapperLine {
+    padding-left: 10%;
+    padding-right: 80%;
+  }
+  .impactoAmbiental_wrapperTxt_title {
+    padding: 20px 10%;
+    font-size: 3rem;
+    font-family: "Work Sans", Verdana, sans-serif;
+  }
+  .impactoAmbiental_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .impactoAmbiental_wrapperCard {
+    width: 70%;
+  }
+  .impactoAmbiental_wrapperCard_card-1 {
+    width: 60vw;
+    justify-self: center;
+  }
+  .impactoAmbiental_wrapperCard_card-2 {
+    width: 62vw;
+    justify-self: center;
+  }
+  .impactoAmbiental_wrapperCard_card-3 {
+    width: 62vw;
+    justify-self: center;
+  }
+  .impactoAmbiental_wrapperCard_card-4 {
+    width: 62vw;
+    justify-self: center;
+  }
+  .impactoAmbiental_wrapperCard_card_img {
+    width: 60vw;
+    height: 30vw;
+  }
+  .impactoSocial_wrapperLine {
+    padding-left: 10%;
+    padding-right: 80%;
+  }
+  .impactoSocial_wrapperTxt_title {
+    padding: 20px 10%;
+    font-size: 3rem;
+  }
+  .impactoSocial_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .impactoSocial_wrapperCard {
+    width: 70%;
+  }
+  .impactoSocial_wrapperCard_card-1 {
+    width: 62vw;
+    justify-self: center;
+  }
+  .impactoSocial_wrapperCard_card-2 {
+    width: 62vw;
+    justify-self: center;
+  }
+  .impactoSocial_wrapperCard_card-3 {
+    width: 62vw;
+    justify-self: center;
+  }
+  .impactoSocial_wrapperCard_card-4 {
+    width: 62vw;
+    justify-self: center;
+  }
+  .impactoSocial_wrapperCard_card_img {
+    width: 60vw;
+    height: 30vw;
+  }
+  .alternativa_wrapperLine {
+    padding-left: 5%;
+    padding-right: 80%;
+  }
+  .alternativa_wrapperTxt_title {
+    font-size: 3rem;
+  }
+  .s_tecnologia_wrapperLine {
+    padding-left: 5%;
+    padding-right: 80%;
+  }
+  .s_tecnologia_wrapperTxt_title {
+    font-size: 3rem;
+  }
+  .s_tecnologia_wrapperVideo {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* Fin personalizacion Tecnologia */
+  /* Inicio personalizacion Soluciones */
+  .pap_wrapperTxt {
+    width: 100%;
+  }
+  .pap_wrapperTxt_title {
+    padding: 40px 0 40px 10%;
+    font-size: 2.5rem;
+    text-align: start;
+  }
+  .pap_wrapperCard {
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+  }
+  .pap_wrapperCard_card {
+    width: 200px;
+    padding-bottom: 20px;
+  }
+  .pap_wrapperCard_card_img {
+    width: 100px;
+    padding-bottom: 15px;
+  }
+  .servicios_wrapperCard_card {
+    width: 300px;
+    height: 300px;
+  }
+  /* Fin personalizacion Soluciones */
+  /* Inicio peronalizacion Contacto */
+  .ubicacion_wrapperFrame {
+    width: 60%;
+  }
+  .formulario_container_wrapper {
+    width: 60%;
+  }
+  /* Inicio personalizacion Contacto */
 }
 /* Fin personalizacion tablet */
 /* Inicio personalizacion desktop */
@@ -1479,25 +1611,12 @@ ol {
   /* Fin personalizacion About us */
   /* Inicio personalizacion Tecnologia */
   .impactoAmbiental {
-    padding-top: 160px;
-  }
-  .impactoAmbiental_wrapperLine {
-    padding-left: 10%;
-    padding-right: 80%;
+    padding-top: 150px;
   }
   .impactoAmbiental_wrapperTxt_title {
-    padding: 20px 10%;
     font-size: 4.5rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-  }
-  .impactoAmbiental_container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
   }
   .impactoAmbiental_wrapperCard {
-    width: 70%;
     display: grid;
     grid-template-areas:
       "impactoAmbiental-1 impactoAmbiental-2"
@@ -1508,19 +1627,15 @@ ol {
   }
   .impactoAmbiental_wrapperCard_card-1 {
     width: 32vw;
-    justify-self: center;
   }
   .impactoAmbiental_wrapperCard_card-2 {
     width: 32vw;
-    justify-self: center;
   }
   .impactoAmbiental_wrapperCard_card-3 {
     width: 32vw;
-    justify-self: center;
   }
   .impactoAmbiental_wrapperCard_card-4 {
     width: 32vw;
-    justify-self: center;
   }
   .impactoAmbiental_wrapperCard_card_img {
     width: 30vw;
@@ -1529,23 +1644,10 @@ ol {
   .impactoSocial {
     padding-top: 100px;
   }
-  .impactoSocial_wrapperLine {
-    padding-left: 10%;
-    padding-right: 80%;
-  }
   .impactoSocial_wrapperTxt_title {
-    padding: 20px 10%;
     font-size: 4.5rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-  }
-  .impactoSocial_container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
   }
   .impactoSocial_wrapperCard {
-    width: 70%;
     display: grid;
     grid-template-areas:
       "impactoAmbiental-1 impactoAmbiental-2"
@@ -1556,19 +1658,15 @@ ol {
   }
   .impactoSocial_wrapperCard_card-1 {
     width: 32vw;
-    justify-self: center;
   }
   .impactoSocial_wrapperCard_card-2 {
     width: 32vw;
-    justify-self: center;
   }
   .impactoSocial_wrapperCard_card-3 {
     width: 32vw;
-    justify-self: center;
   }
   .impactoSocial_wrapperCard_card-4 {
     width: 32vw;
-    justify-self: center;
   }
   .impactoSocial_wrapperCard_card_img {
     width: 30vw;
@@ -1579,7 +1677,6 @@ ol {
   }
   .alternativa_wrapperLine {
     padding-left: 10%;
-    padding-right: 80%;
   }
   .alternativa_container {
     width: 100%;
@@ -1616,7 +1713,6 @@ ol {
   }
   .s_tecnologia_wrapperLine {
     padding-left: 10%;
-    padding-right: 80%;
   }
   .s_tecnologia_container {
     flex-direction: row;
@@ -1640,7 +1736,6 @@ ol {
   }
   .s_tecnologia_wrapperVideo {
     width: 600px;
-    display: flex;
     padding: 50px 0;
   }
   /* Fin personalizacion Tecnologia */
@@ -1655,34 +1750,16 @@ ol {
   .main_solucion_wrapperTxt_title {
     font-size: 3rem;
   }
-  .pap_wrapperTxt {
-    width: 100%;
-  }
-  .pap_wrapperTxt_title {
-    padding: 40px 0 40px 10%;
-    font-size: 2.5rem;
-    text-align: start;
-  }
   .pap_wrapperCard {
-    width: 80%;
     min-height: 200px;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-bottom: 40px;
   }
   .pap_wrapperCard_card {
-    width: 200px;
     transition: transform 2s;
   }
   .pap_wrapperCard_card:hover {
     transform: scale(1.2);
     border: 3px solid #ff6600;
     border-radius: 20px;
-  }
-  .pap_wrapperCard_card_img {
-    width: 150px;
-    padding-bottom: 15px;
   }
   .solucionIntegral {
     flex-direction: row;
@@ -1711,8 +1788,6 @@ ol {
     justify-content: space-around;
   }
   .servicios_wrapperCard_card {
-    width: 300px;
-    height: 300px;
     transition: all 1s;
   }
   .servicios_wrapperCard_card:hover {
