@@ -544,21 +544,52 @@ ol {
   color: rgb(0, 0, 50);
   padding-bottom: 20px;
 }
-.equipo_wrapperCard {
-  width: 80%;
+.equipo_wrapper {
+  width: 90%;
+  padding: 10px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.equipo_wrapperCard_card {
-  width: 250px;
+.equipo_contenedor {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 25px;
+}
+.equipo_contenedor figure {
+  position: relative;
+  height: 70vw;
+  width: 70vw;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+.equipo_contenedor figure img {
+  width: 100%;
+  height: 100%;
+}
+.equipo_contenedor_capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 20%;
+  margin-top: 80%;
+  background: rgba(123, 66, 0, 0.7);
+  display: flex;
   align-items: center;
 }
-.equipo_wrapperCard_card_img {
-  width: 200px;
+.equipo_contenedor_capa h3 {
+  font-style: normal;
+  font-size: 1rem;
+  font-family: "Work Sans Medium", Verdana, sans-serif;
+  line-height: 1.2;
+  color: #ffffff;
+  text-align: start;
+  padding: 0 0 0 20px;
+}
+.equipo_contenedor_capa p {
+  visibility: hidden;
 }
 /* Fin personalizacion About us */
 /* Inicio personalizacion Tecnologia */
@@ -1215,11 +1246,16 @@ ol {
   }
   /* Fin personalizacion Home */
   /* Inicio personalizacion About us */
-  .equipo_wrapperCard {
-    width: 90%;
+  .equipo_wrapper {
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-around;
+  }
+  .equipo_contenedor {
+    padding-left: 10px;
+  }
+  .equipo_contenedor figure {
+    height: 25vw;
+    width: 25vw;
   }
   /* Fin personalizacion About us */
   .impactoAmbiental_wrapperLine {
@@ -1596,18 +1632,52 @@ ol {
   .equipo_wrapperTxt_txt {
     font-size: 2.5rem;
   }
-  .equipo_wrapperCard {
+  .equipo_wrapper {
     width: 80%;
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: no wrap;
   }
-  .equipo_wrapperCard_card {
-    width: 350px;
+  .equipo_contenedor figure {
+    height: 22vw;
+    width: 22vw;
   }
-  .equipo_wrapperCard_card_img {
-    width: 300px;
+  .equipo_contenedor figure img {
+    transition: all 500ms ease-out;
+  }
+  .equipo_contenedor_capa {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .equipo_contenedor figure:hover > .equipo_contenedor_capa {
+    opacity: 1;
+    visibility: visible;
+  }
+  .equipo_contenedor figure:hover > .equipo_contenedor_capa h3 {
+    margin-top: 25%;
+    margin-bottom: 0px;
+  }
+  .equipo_contenedor_capa h3 {
+    text-align: center;
+    transition: all 500ms ease-out;
+    padding-top: 3%;
+    padding-bottom: 8%;
+  }
+  .equipo_contenedor_capa p {
+    visibility: visible;
+    font-style: normal;
+    font-size: 1rem;
+    font-family: "Work Sans", Verdana, sans-serif;
+    line-height: 1.2;
+    color: #ffffff;
+    text-align: justify;
+    max-width: 200px;
   }
   /* Fin personalizacion About us */
   /* Inicio personalizacion Tecnologia */
