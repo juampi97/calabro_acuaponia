@@ -11,6 +11,10 @@ ul,
 ol {
   list-style: none;
 }
+html{
+  font-style: medium;
+  font-family: "Work Sans Medium", Verdana, sans-serif;
+}
 /* Fin reseteo valor predeterminados */
 /* Inicio agregado fuentes */
 @font-face {
@@ -39,41 +43,33 @@ ol {
 }
 /* Fin agregado fuentes */
 /* Inicio personalizacion movile */
-.main_header {
-  background-color: #141638;
+.nav_bkg {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #141638;
+  position: fixed;
   z-index: 1;
 }
-.main_header_nav {
+.nav_logo {
+  padding-left: 20px;
+}
+.nav_boton {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 15px 15px 0 15px;
+  justify-content: flex-end;
 }
-.main_header_wraperlogo_logo {
-  height: 3.2rem;
-  padding-top: 10px;
+.nav_boton ul{
+  text-decoration: none;
+  color: white;
 }
-.main_header ul {
-  font-size: 0;
-}
-.main_header_nav li {
-  padding-bottom: 10px;
-}
-.main_header_nav a {
+.nav_boton ul li a {
   font-style: Medium;
   font-size: 1rem;
   font-family: "Work Sans Medium", Verdana, sans-serif;
   line-height: 1.2;
   font-weight: 500;
-  color: white;
-  padding-left: 20px;
-  text-align: center;
+  text-decoration: none;
+  text-align: start;
 }
+
 .fixedFlecha {
   position: fixed;
   bottom: 20px;
@@ -155,15 +151,16 @@ ol {
   padding-bottom: 1rem;
 }
 .main_home_wrapper_boton {
-  width: 80px;
+  width: 150px;
   font-style: normal;
   font-size: 1.1rem;
   font-family: "Work Sans Medium", Verdana, sans-serif;
   line-height: 1.2;
   font-weight: 500;
+  text-align: center;
   color: rgb(0, 0, 50);
   background-color: white;
-  padding: 15px 40px;
+  padding: 15px 0;
   border: solid 2px #ff7200;
   border-radius: 5px;
   animation: boton_pulse 2s infinite;
@@ -264,12 +261,12 @@ ol {
   text-align: justify;
 }
 .soluciones_wrapperDer_wrapperTxt_boton {
-  width: 80px;
   font-style: normal;
   font-size: 0.9rem;
   font-family: "Work Sans Medium", Verdana, sans-serif;
   line-height: 1.2;
   font-weight: 500;
+  text-align: center;
   color: rgb(0, 0, 50);
   background-color: white;
   padding: 15px 40px;
@@ -324,7 +321,6 @@ ol {
   text-align: start;
 }
 .tecnologia_wrapperIzq_wrapperTxt_boton {
-  width: 80px;
   font-style: normal;
   font-size: 1rem;
   font-family: "Work Sans Medium", Verdana, sans-serif;
@@ -1393,36 +1389,16 @@ ol {
 /* Inicio personalizacion desktop */
 @media (min-width: 992px) {
   /* Inicio personalizacion menu principal  */
-  .main_header {
-    height: 80px;
-    position: fixed;
-    display: grid;
-    grid-template-columns: 300px auto;
-    justify-content: space-around;
+  .nav_boton {
+    padding-right: 20px;
   }
-  .main_header_wraperlogo_logo {
-    height: 3.2rem;
-    padding-top: 0px;
-    padding-left: 20px;
+  .nav_boton ul li {
+    padding: 0 20px;
   }
-  .main_header_nav {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: end;
-    gap: 0 20px;
-    padding: 0;
-  }
-  .main_header_nav li {
-    padding-bottom: 0;
-  }
-  .main_header_nav a {
-    padding-left: 10px;
-  }
-  .main_header_nav_boton {
-    padding: 10px;
+  .nav_boton_animame {
     position: relative;
   }
-  .main_header_nav_boton:after {
+  .nav_boton_animame:after {
     content: "";
     width: 0;
     height: 4px;
@@ -1433,7 +1409,7 @@ ol {
     transition: all 0.5s;
     will-change: width;
   }
-  .main_header_nav_boton:hover:after {
+  .nav_boton_animame:hover:after {
     width: 100%;
     right: 0;
   }
@@ -1721,10 +1697,10 @@ ol {
   }
   .impactoAmbiental_wrapperCard_card:hover .front {
     transform: perspective(600px) rotateY(180deg);
-  } 
+  }
   .impactoAmbiental_wrapperCard_card:hover .back {
     transform: perspective(600px) rotateY(360deg);
-  } 
+  }
   .impactoAmbiental_wrapperCard_card_img {
     padding: 0;
   }
@@ -1769,10 +1745,10 @@ ol {
   }
   .impactoSocial_wrapperCard_card:hover .front {
     transform: perspective(600px) rotateY(180deg);
-  } 
+  }
   .impactoSocial_wrapperCard_card:hover .back {
     transform: perspective(600px) rotateY(360deg);
-  } 
+  }
   .impactoSocial_wrapperCard_card_img {
     padding: 0;
   }
