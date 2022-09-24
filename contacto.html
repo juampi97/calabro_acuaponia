@@ -217,35 +217,51 @@
       </div>
       <div class="formulario_container">
         <div class="formulario_container_wrapper">
-          <form action="" id="formulario">
-            <label for="name">Nombre y apellido</label>
-            <input
-              type="text"
-              name="name"
-              placeholder="Ingrese sunombre completo"
-            />
-            <br />
-            <label for="email">Correo electronico</label>
-            <input type="email" name="email" placeholder="Ingrese su email" />
-            <br />
-            <label for="telefono">Numero de telefono (011-1111-1111)</label>
-            <input
-              type="tel"
-              name="telefono"
-              placeholder="011-1111-1111"
-              pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
-            />
-            <br />
-            <label for="message">Mensaje</label>
-            <textarea
-              name="message"
-              cols="35"
-              rows="5"
-              placeholder="Ingrese su consulta"
-            ></textarea>
-            <br />
-            <label for="especie">Especie</label>
-            <select name="especie" id="">
+          <form>
+            <div class="mb-3">
+              <label for="Name" class="form-label">Nombre y Apellido</label>
+              <input
+                type="name"
+                class="form-control"
+                id="InputName"
+                aria-describedby="name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="Email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="InputEmail"
+                aria-describedby="email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="FormControlTextarea" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control"
+                id="FormControlTextarea"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="Telefono" class="form-label"
+                >Telefono (011-1111-1111)</label
+              >
+              <input
+                type="tel"
+                name="telefono"
+                placeholder="011-1111-1111"
+                pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+                class="form-control"
+                id="InputTelefono"
+                aria-describedby="telefono"
+              />
+            </div>
+            <label for="Especie" class="form-label">Especie</label>
+            <select class="form-select" aria-label="Default select example">
               <option selected disabled>Selecciona una opcion</option>
               <option value="salmon">Salmon del atlantico</option>
               <option value="barramundi">Barramundi</option>
@@ -255,21 +271,30 @@
               <option value="dorada">Dorada</option>
               <option value="otros">Otros</option>
             </select>
-            <br />
-            <label for="capacidad">Capacidad anual</label>
-            <select name="capacidad" id="">
+            <label for="Capacidad" class="form-label">Capacidad</label>
+            <select class="form-select" aria-label="Default select example">
               <option selected disabled>Selecciones una opcion</option>
               <option value="1000">1000</option>
               <option value="2500">2500</option>
               <option value="5000">5000</option>
               <option value="10000">10000</option>
             </select>
-            <br />
-            <label for="accept">Deseo suscribirme al newsletter</label>
-            <input type="checkbox" name="accept" value="si" />
-            <br />
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Limpiar formulario" />
+            <label for="newsletter" class="form-label"
+              >Deseo suscribirme al newsletter</label
+            >
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+                value="si"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-primary">Limpiar formulario</button>
           </form>
         </div>
       </div>
