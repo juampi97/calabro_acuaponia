@@ -219,49 +219,51 @@
         <div class="formulario_container_wrapper">
           <form>
             <div class="mb-3">
-              <label for="Name" class="form-label">Nombre y Apellido</label>
+              <label for="name" class="form-label">Nombre y Apellido</label>
               <input
-                type="name"
+                type="text"
+                name="name"
                 class="form-control"
                 id="InputName"
                 aria-describedby="name"
               />
             </div>
             <div class="mb-3">
-              <label for="Email" class="form-label">Email</label>
+              <label for="email" class="form-label">Email</label>
               <input
                 type="email"
+                name="email"
                 class="form-control"
                 id="InputEmail"
                 aria-describedby="email"
               />
             </div>
             <div class="mb-3">
-              <label for="FormControlTextarea" class="form-label"
-                >Mensaje</label
-              >
+              <label for="message" class="form-label"
+                >Mensaje</label>
               <textarea
+                name=""
                 class="form-control"
-                id="FormControlTextarea"
+                id="InputMessage"
                 rows="3"
               ></textarea>
             </div>
             <div class="mb-3">
-              <label for="Telefono" class="form-label"
+              <label for="telefono" class="form-label"
                 >Telefono (011-1111-1111)</label
               >
               <input
                 type="tel"
                 name="telefono"
-                placeholder="011-1111-1111"
-                pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+                placeholder="01111111111"
+                pattern="[0-9]{3}[0-9]{4}[0-9]{4}"
                 class="form-control"
                 id="InputTelefono"
                 aria-describedby="telefono"
               />
             </div>
-            <label for="Especie" class="form-label">Especie</label>
-            <select class="form-select" aria-label="Default select example">
+            <label for="especie" class="form-label">Especie</label>
+            <select name="especie" class="form-select" aria-label="selectEspecie">
               <option selected disabled>Selecciona una opcion</option>
               <option value="salmon">Salmon del atlantico</option>
               <option value="barramundi">Barramundi</option>
@@ -271,26 +273,24 @@
               <option value="dorada">Dorada</option>
               <option value="otros">Otros</option>
             </select>
-            <label for="Capacidad" class="form-label">Capacidad</label>
-            <select class="form-select" aria-label="Default select example">
+            <label for="capacidad" class="form-label">Capacidad</label>
+            <select name="capacidad" class="form-select" aria-label="selectCapacidad">
               <option selected disabled>Selecciones una opcion</option>
               <option value="1000">1000</option>
               <option value="2500">2500</option>
               <option value="5000">5000</option>
               <option value="10000">10000</option>
             </select>
-            <label for="newsletter" class="form-label"
-              >Deseo suscribirme al newsletter</label
-            >
             <div class="mb-3 form-check">
               <input
+                name="newsletter"
                 type="checkbox"
                 class="form-check-input"
-                id="exampleCheck1"
+                id="checkNewsletter"
                 value="si"
               />
-              <label class="form-check-label" for="exampleCheck1"
-                >Check me out</label
+              <label for="newsletter" class="form-check-label" for="exampleCheck1"
+                >Deseo suscribirme al newsletter</label
               >
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
