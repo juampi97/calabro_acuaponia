@@ -5,38 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/fav-icon.svg" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- Css propio -->
     <link rel="stylesheet" href="./css/estilos.css" />
     <title>Soluciones</title>
   </head>
   <body>
-    <header class="main_header">
-      <div class="main_header_wraperlogo">
-        <img
-          src="./img/logo_header.svg"
-          alt="Logo"
-          class="main_header_wraperlogo_logo"
-        />
-      </div>
-      <nav>
-        <ul class="main_header_nav">
-          <li><a href="./index.html" class="main_header_nav_boton">HOME</a></li>
-          <li>
-            <a href="./about_us.html" class="main_header_nav_boton">ABOUT US</a>
-          </li>
-          <li>
-            <a href="./tecnologia.html" class="main_header_nav_boton"
-              >TECONOLOGIA</a
-            >
-          </li>
-          <li>
-            <a href="./soluciones.html" class="main_header_nav_boton"
-              >SOLUCIONES</a
-            >
-          </li>
-          <li>
-            <a href="./contacto.html" class="main_header_nav_boton">CONTACTO</a>
-          </li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-lg nav_bkg">
+        <div class="container-fluid">
+          <a class="navbar-brand nav_logo" href="./index.html">
+            <img src="./img/logo_header.svg" alt="Logo empresa" height="50" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse nav_boton"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 me-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav_boton_animame"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav_boton_animame"
+                  aria-current="page"
+                  href="./about_us.html"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav_boton_animame"
+                  aria-current="page"
+                  href="./tecnologia.html"
+                  >Tecnologia</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav_boton_animame"
+                  aria-current="page"
+                  href="./soluciones.html"
+                  >Soluciones</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav_boton_animame"
+                  aria-current="page"
+                  href="./contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <!-- Inicio boton_fixed_botonTop  -->
@@ -70,9 +118,18 @@
             alt="planilla"
             class="pap_wrapperCard_card_img"
           />
-          <div class="pap_wrapperCard_card_txt">
-            <p>Definicion del proyecto</p>
-          </div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-container="body"
+            data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="Enviamos un cuestionario detallado al cliente, que nos permite
+            obtener todos los datos necesarios para realizar un estudio de
+            viabilidad."
+          >
+            Definicion del proyecto
+          </button>
         </div>
         <div class="pap_wrapperCard_card">
           <img
@@ -80,9 +137,16 @@
             alt="lista"
             class="pap_wrapperCard_card_img"
           />
-          <div class="pap_wrapperCard_card_txt">
-            <p>Planificacion conceptual</p>
-          </div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-container="body"
+            data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="Preparamos un plan de proyecto preliminar y un presupuesto para ser enviado al cliente para su firma."
+          >
+            Planificación Conceptual
+          </button>
         </div>
         <div class="pap_wrapperCard_card">
           <img
@@ -90,9 +154,16 @@
             alt="Diseño"
             class="pap_wrapperCard_card_img"
           />
-          <div class="pap_wrapperCard_card_txt">
-            <p>Detallado</p>
-          </div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-container="body"
+            data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="Una vez firmado el acuerdo, preparamos un diseño detallado de la tecnología y un documento de licitación para ser enviado a varios proveedores. Además, en esta etapa se obtienen todos los permisos necesarios de las distintas autoridades."
+          >
+            Diseño detallado
+          </button>
         </div>
         <div class="pap_wrapperCard_card">
           <img
@@ -100,9 +171,16 @@
             alt="construccion"
             class="pap_wrapperCard_card_img"
           />
-          <div class="pap_wrapperCard_card_txt">
-            <p>Contruccion</p>
-          </div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-container="body"
+            data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="Esta etapa comienza en dos vías paralelas: la construcción civil y la tecnología. Una vez finalizado el proceso de construcción, el sistema comienza una operación en seco (sin peces) seguida de una operación en húmedo con una entrada gradual de peces en el sistema. En este momento se contrata y capacita al personal."
+          >
+            Construccion
+          </button>
         </div>
         <div class="pap_wrapperCard_card">
           <img
@@ -110,16 +188,21 @@
             alt="soporte tecnico"
             class="pap_wrapperCard_card_img"
           />
-          <div class="pap_wrapperCard_card_txt">
-            <p>Soporte tecnico</p>
-          </div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-container="body"
+            data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="Una vez que la instalación esté en pleno funcionamiento, seguiremos proporcionando apoyo y asesoramiento acerca de las operaciones, las actualizaciones de los sistemas y la tecnología."
+          >
+            Soporte tecnico
+          </button>
         </div>
       </div>
     </section>
     <!-- Fin pasos de un proyecto -->
-    <div>
-      <hr color="#ff6600" size="5" />
-    </div>
+    <div class="linea"></div>
     <!-- Inicio solucion integral -->
     <section class="solucionIntegral">
       <div class="solucionIntegral_wrapperImg"></div>
@@ -144,9 +227,7 @@
         </p>
       </div>
     </section>
-    <div>
-      <hr color="#ff6600" size="5" />
-    </div>
+    <div class="linea"></div>
     <!-- Fin solucion integral -->
     <!-- Inicio servcios -->
     <section class="servicios">
@@ -364,5 +445,19 @@
         </div>
       </div>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      );
+      const popoverList = [...popoverTriggerList].map(
+        (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+      );
+    </script>
   </body>
 </html>

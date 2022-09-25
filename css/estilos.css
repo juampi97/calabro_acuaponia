@@ -3,9 +3,12 @@
   margin: 0;
   padding: 0;
 }
+html{
+  font-style: medium;
+  font-family: "Work Sans Medium", Verdana, sans-serif;
+}
 a {
   text-decoration: none;
-  color: red;
 }
 ul,
 ol {
@@ -39,40 +42,31 @@ ol {
 }
 /* Fin agregado fuentes */
 /* Inicio personalizacion movile */
-.main_header {
-  background-color: #141638;
+.nav_bkg {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #141638;
+  position: fixed;
   z-index: 1;
 }
-.main_header_nav {
+.nav_logo {
+  padding-left: 20px;
+}
+.nav_boton {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 15px 15px 0 15px;
+  justify-content: flex-end;
 }
-.main_header_wraperlogo_logo {
-  height: 3.2rem;
-  padding-top: 10px;
+.nav_boton ul{
+  text-decoration: none;
+  color: white;
 }
-.main_header ul {
-  font-size: 0;
-}
-.main_header_nav li {
-  padding-bottom: 10px;
-}
-.main_header_nav a {
+.nav_boton ul li a {
   font-style: Medium;
   font-size: 1rem;
   font-family: "Work Sans Medium", Verdana, sans-serif;
   line-height: 1.2;
   font-weight: 500;
-  color: white;
-  padding-left: 20px;
-  text-align: center;
+  text-decoration: none;
+  text-align: start;
 }
 .fixedFlecha {
   position: fixed;
@@ -120,8 +114,35 @@ ol {
   align-items: center;
 }
 .footer_wrapperRedes_img {
-  width: 30px;
+  width: 50px;
   padding: 0 10px;
+}
+.linea {
+  width: 100%;
+  height: 3px;
+  background-color: #ff6600;
+}
+.linea_small {
+  width: 90%;
+  margin-left: 5%;
+  height: 3px;
+  background-color: #ff6600;
+}
+.linea_izq {
+  width: 20%;
+  max-width: 150px;
+  height: 20px;
+  margin-left: 5%;
+  margin-top: 80px;
+  background-color: #ff6600;
+}
+.linea_izq-mod {
+  width: 20%;
+  max-width: 150px;
+  height: 20px;
+  margin-left: 5%;
+  margin-top: 0px;
+  background-color: #ff6600;
 }
 .main_home {
   background: linear-gradient(
@@ -152,18 +173,19 @@ ol {
   text-align: start;
   line-height: 1.2;
   color: rgb(0, 0, 50);
-  padding-bottom: 1rem;
+  padding: 2.5rem 0 1rem 0;
 }
 .main_home_wrapper_boton {
-  width: 80px;
+  width: 150px;
   font-style: normal;
   font-size: 1.1rem;
   font-family: "Work Sans Medium", Verdana, sans-serif;
   line-height: 1.2;
   font-weight: 500;
+  text-align: center;
   color: rgb(0, 0, 50);
   background-color: white;
-  padding: 15px 40px;
+  padding: 15px 0;
   border: solid 2px #ff7200;
   border-radius: 5px;
   animation: boton_pulse 2s infinite;
@@ -181,6 +203,7 @@ ol {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding-top: 20px;
 }
 .desafioGlobal_wrapperTxt_subtitle {
   font-style: normal;
@@ -264,12 +287,12 @@ ol {
   text-align: justify;
 }
 .soluciones_wrapperDer_wrapperTxt_boton {
-  width: 80px;
   font-style: normal;
   font-size: 0.9rem;
   font-family: "Work Sans Medium", Verdana, sans-serif;
   line-height: 1.2;
   font-weight: 500;
+  text-align: center;
   color: rgb(0, 0, 50);
   background-color: white;
   padding: 15px 40px;
@@ -324,7 +347,6 @@ ol {
   text-align: start;
 }
 .tecnologia_wrapperIzq_wrapperTxt_boton {
-  width: 80px;
   font-style: normal;
   font-size: 1rem;
   font-family: "Work Sans Medium", Verdana, sans-serif;
@@ -384,7 +406,7 @@ ol {
     ),
     url(../img/about_us/cientificos.jpg);
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -403,7 +425,7 @@ ol {
 .main_aboutUs_wrapper_title {
   font-style: normal;
   font-size: 1.8rem;
-  font-family: "Work Sans", Verdana, sans-serif;
+  font-family: "Work Sans Medium", Verdana, sans-serif;
   text-align: start;
   line-height: 1.2;
   color: rgb(0, 0, 50);
@@ -534,6 +556,8 @@ ol {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .equipo_wrapperTxt_txt {
   font-style: normal;
@@ -652,6 +676,7 @@ ol {
   color: rgb(0, 0, 50);
   line-height: 45px;
   text-align: center;
+  margin-bottom: 0;
 
   position: absolute;
   bottom: 0;
@@ -722,6 +747,7 @@ ol {
   color: rgb(0, 0, 50);
   line-height: 45px;
   text-align: center;
+  margin-bottom: 0;
 
   position: absolute;
   bottom: 0;
@@ -838,7 +864,7 @@ ol {
     ),
     url(../img/solucion/fondas_ras.jpg);
   width: 100%;
-  height: 75vh;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -895,15 +921,6 @@ ol {
   width: 100px;
   padding-bottom: 10px;
 }
-.pap_wrapperCard_card_txt {
-  font-style: normal;
-  font-size: 1.1rem;
-  font-family: "Work Sans Bold", Verdana, sans-serif;
-  text-align: center;
-  line-height: 1.6;
-  color: black;
-  padding-bottom: 10px;
-}
 .solucionIntegral {
   width: 100%;
   display: flex;
@@ -956,7 +973,7 @@ ol {
   align-items: center;
 }
 .servicios_wrapperCard_card {
-  width: 250px;
+  width: 300px;
   min-height: 200px;
   padding: 20px;
   margin-bottom: 20px;
@@ -1113,7 +1130,7 @@ ol {
 }
 .canalesAtencion_wrapperTxt {
   width: 90%;
-  padding-top: 20px;
+  padding-top: 90px;
 }
 .canalesAtencion_wrapperTxt_title {
   font-style: normal;
@@ -1181,6 +1198,7 @@ ol {
   color: white;
 }
 .ubicacion_wrapperFrame {
+  width: 90%;
   padding: 20px 0;
 }
 .ubicacion_wrapperFrame iframe {
@@ -1226,6 +1244,10 @@ ol {
 /* Fin personalizacion movile */
 /* Inicio personalizacion tablet */
 @media (min-width: 768px) {
+  .linea_izq {
+    width: 200px;
+    margin-left: 5%;
+  }
   /* Inicio personalizacion Home */
   .main_home_wrapper {
     width: 70%;
@@ -1280,12 +1302,8 @@ ol {
     width: 25vw;
   }
   /* Fin personalizacion About us */
-  .impactoAmbiental_wrapperLine {
-    padding-left: 10%;
-    padding-right: 80%;
-  }
   .impactoAmbiental_wrapperTxt_title {
-    padding: 20px 10%;
+    padding: 20px 5%;
     font-size: 3rem;
     font-family: "Work Sans", Verdana, sans-serif;
   }
@@ -1306,12 +1324,8 @@ ol {
     width: 40vw;
     height: 20vw;
   }
-  .impactoSocial_wrapperLine {
-    padding-left: 10%;
-    padding-right: 80%;
-  }
   .impactoSocial_wrapperTxt_title {
-    padding: 20px 10%;
+    padding: 20px 5%;
     font-size: 3rem;
     font-family: "Work Sans", Verdana, sans-serif;
   }
@@ -1331,10 +1345,6 @@ ol {
   .impactoSocial_wrapperCard_card {
     width: 40vw;
     height: 20vw;
-  }
-  .alternativa_wrapperLine {
-    padding-left: 5%;
-    padding-right: 80%;
   }
   .alternativa_wrapperTxt_title {
     font-size: 3rem;
@@ -1356,7 +1366,7 @@ ol {
     width: 100%;
   }
   .pap_wrapperTxt_title {
-    padding: 40px 0 40px 10%;
+    padding-left: 10%;
     font-size: 2.5rem;
     text-align: start;
   }
@@ -1375,54 +1385,37 @@ ol {
     width: 100px;
     padding-bottom: 15px;
   }
+  .servicios_wrapperCard {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
   .servicios_wrapperCard_card {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
+
   }
   /* Fin personalizacion Soluciones */
   /* Inicio peronalizacion Contacto */
-  .ubicacion_wrapperFrame {
-    width: 60%;
-  }
-  .formulario_container_wrapper {
-    width: 60%;
-  }
   /* Inicio personalizacion Contacto */
 }
 /* Fin personalizacion tablet */
 /* Inicio personalizacion desktop */
 @media (min-width: 992px) {
   /* Inicio personalizacion menu principal  */
-  .main_header {
-    height: 80px;
-    position: fixed;
-    display: grid;
-    grid-template-columns: 300px auto;
-    justify-content: space-around;
+  .nav_boton {
+    padding-right: 20px;
   }
-  .main_header_wraperlogo_logo {
-    height: 3.2rem;
-    padding-top: 0px;
-    padding-left: 20px;
+  .nav_boton ul li {
+    padding: 0 20px;
   }
-  .main_header_nav {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-content: end;
-    gap: 0 20px;
-    padding: 0;
-  }
-  .main_header_nav li {
-    padding-bottom: 0;
-  }
-  .main_header_nav a {
-    padding-left: 10px;
-  }
-  .main_header_nav_boton {
-    padding: 10px;
+  .nav_boton_animame {
     position: relative;
   }
-  .main_header_nav_boton:after {
+  .nav_boton_animame:after {
     content: "";
     width: 0;
     height: 4px;
@@ -1433,7 +1426,7 @@ ol {
     transition: all 0.5s;
     will-change: width;
   }
-  .main_header_nav_boton:hover:after {
+  .nav_boton_animame:hover:after {
     width: 100%;
     right: 0;
   }
@@ -1470,6 +1463,16 @@ ol {
   }
   .footer_wrapperRedes_img {
     width: 50px;
+  }
+  .linea_izq {
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 0;
+  }
+  .linea_izq-mod {
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 0;
   }
   /* Fin personalizacion footer */
   /* Inicio personalizacion Home */
@@ -1684,6 +1687,7 @@ ol {
     padding-top: 150px;
   }
   .impactoAmbiental_wrapperTxt_title {
+    padding-left: 10%;
     font-size: 4.5rem;
   }
   .impactoAmbiental_wrapperCard {
@@ -1721,10 +1725,10 @@ ol {
   }
   .impactoAmbiental_wrapperCard_card:hover .front {
     transform: perspective(600px) rotateY(180deg);
-  } 
+  }
   .impactoAmbiental_wrapperCard_card:hover .back {
     transform: perspective(600px) rotateY(360deg);
-  } 
+  }
   .impactoAmbiental_wrapperCard_card_img {
     padding: 0;
   }
@@ -1732,6 +1736,7 @@ ol {
     padding-top: 100px;
   }
   .impactoSocial_wrapperTxt_title {
+    padding-left: 10%;
     font-size: 4.5rem;
   }
   .impactoSocial_wrapperCard {
@@ -1769,18 +1774,15 @@ ol {
   }
   .impactoSocial_wrapperCard_card:hover .front {
     transform: perspective(600px) rotateY(180deg);
-  } 
+  }
   .impactoSocial_wrapperCard_card:hover .back {
     transform: perspective(600px) rotateY(360deg);
-  } 
+  }
   .impactoSocial_wrapperCard_card_img {
     padding: 0;
   }
   .alternativa {
     padding: 100px 0;
-  }
-  .alternativa_wrapperLine {
-    padding-left: 10%;
   }
   .alternativa_container {
     width: 100%;
@@ -1789,7 +1791,7 @@ ol {
     justify-content: space-around;
   }
   .alternativa_wrapperTxt {
-    width: 600px;
+    width: 80%;
     min-height: 300px;
   }
   .alternativa_wrapperTxt_title {
@@ -1810,13 +1812,10 @@ ol {
     transition: all 2s;
   }
   .alternativa_wrapperImg_img:hover {
-    transform: scale(1.75) translateX(-200px);
+    transform: scale(1.6);
   }
   .s_tecnologia {
-    padding: 100px 0;
-  }
-  .s_tecnologia_wrapperLine {
-    padding-left: 10%;
+    padding: 100px 0 0 0;
   }
   .s_tecnologia_container {
     flex-direction: row;
@@ -1825,16 +1824,15 @@ ol {
     align-items: center;
   }
   .s_tecnologia_wrapperTxt {
-    width: 600px;
+    width: 80%;
     min-height: 300px;
   }
   .s_tecnologia_wrapperTxt_title {
-    padding: 20px 0 20px 10%;
+    padding: 20px 0;
     font-size: 4.5rem;
     font-family: "Work Sans", Verdana, sans-serif;
   }
   .s_tecnologia_wrapperTxt_txt {
-    padding-left: 10%;
     font-size: 1.4rem;
     line-height: 1.5;
   }
@@ -1854,24 +1852,13 @@ ol {
   .main_solucion_wrapperTxt_title {
     font-size: 3rem;
   }
-  .pap_wrapperCard {
-    min-height: 200px;
-  }
   .pap_wrapperCard_card {
     width: 200px;
     height: 200px;
     background-color: #ffffff;
-    margin: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 2s;
-  }
-  .pap_wrapperCard_card:hover {
-    transform: scale(1.2);
-    border: 3px solid #ff6600;
-    border-radius: 20px;
   }
   .solucionIntegral {
     flex-direction: row;
@@ -1895,9 +1882,6 @@ ol {
   .servicios_wrapperCard {
     width: 70%;
     min-height: 600px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
   }
   .servicios_wrapperCard_card {
     transition: all 1s;
@@ -1969,7 +1953,7 @@ ol {
   /* Fin personalizacion Solucion */
   /* Inicio personalizacion Contacto */
   .main_contacto {
-    padding-top: 80px;
+    padding-top: 60px;
   }
   .main_contacto_wrapper {
     display: grid;
@@ -2008,15 +1992,14 @@ ol {
     padding: 40px 0;
   }
   .ubicacion_wrapperFrame iframe {
-    width: 500px;
     height: 375px;
   }
   .formulario_wrapperTxt {
     padding: 40px 0 20px 0;
   }
   .formulario_container_wrapper {
-    width: 400px;
-    padding: 20px;
+    width: 550px;
+    padding: 50px;
   }
   /* Fin personalizacion Contacto */
 }
