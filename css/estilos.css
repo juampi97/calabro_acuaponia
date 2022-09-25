@@ -676,7 +676,6 @@ ol {
   color: rgb(0, 0, 50);
   line-height: 45px;
   text-align: center;
-
   margin-bottom: 0;
 
   position: absolute;
@@ -748,6 +747,7 @@ ol {
   color: rgb(0, 0, 50);
   line-height: 45px;
   text-align: center;
+  margin-bottom: 0;
 
   position: absolute;
   bottom: 0;
