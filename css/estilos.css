@@ -921,15 +921,6 @@ ol {
   width: 100px;
   padding-bottom: 10px;
 }
-.pap_wrapperCard_card_txt {
-  font-style: normal;
-  font-size: 1.1rem;
-  font-family: "Work Sans Bold", Verdana, sans-serif;
-  text-align: center;
-  line-height: 1.6;
-  color: black;
-  padding-bottom: 10px;
-}
 .solucionIntegral {
   width: 100%;
   display: flex;
@@ -1375,7 +1366,7 @@ ol {
     width: 100%;
   }
   .pap_wrapperTxt_title {
-    padding: 40px 0 40px 10%;
+    padding-left: 10%;
     font-size: 2.5rem;
     text-align: start;
   }
@@ -1861,25 +1852,13 @@ ol {
   .main_solucion_wrapperTxt_title {
     font-size: 3rem;
   }
-  .pap_wrapperCard {
-    min-height: 200px;
-  }
   .pap_wrapperCard_card {
     width: 200px;
     height: 200px;
     background-color: #ffffff;
-    margin: 20px;
-    padding-top: 40px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 2s;
-  }
-  .pap_wrapperCard_card:hover {
-    transform: scale(1.2);
-    border: 3px solid #ff6600;
-    border-radius: 20px;
   }
   .solucionIntegral {
     flex-direction: row;
