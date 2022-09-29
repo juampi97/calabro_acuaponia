@@ -1,66 +1,71 @@
-/* Inicio reseteo valor predeterminados */
-* {
-    margin: 0;
-    padding: 0;
-  }
-  html{
-    font-style: medium;
-    font-family: "Work Sans Medium", Verdana, sans-serif;
-  }
-  a {
-    text-decoration: none;
-  }
-  ul,
-  ol {
-    list-style: none;
-  }
-  /* Fin reseteo valor predeterminados */
-  /* Inicio agregado fuentes */
-  @font-face {
-    font-family: "Work Sans";
-    src: url(../fonts/WorkSans-Regular.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-  }
-  @font-face {
-    font-family: "Work Sans Bold";
-    src: url(../fonts/WorkSans-Bold.ttf) format("truetype");
-    font-style: bold;
-    font-weight: 700;
-  }
-  @font-face {
-    font-family: "Work Sans Medium";
-    src: url(../fonts/WorkSans-Medium.ttf) format("truetype");
-    font-style: medium;
-    font-weight: 500;
-  }
-  @font-face {
-    font-family: "Work Sans Light";
-    src: url(../fonts/WorkSans-Light.ttf) format("truetype");
-    font-style: light;
-    font-weight: 200;
-  }
-  /* Fin agregado fuentes */
+$blue:    #141638;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$azul: #171a38;
+$naranja: #ff6600;
+
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+
+  "primario":   $azul,
+  "secundario": $naranja,
+  "basico":     $white
+);
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+@import "./pages/index";
+@import "./pages/about";
+@import "./pages/tecnologia";
+@import "./pages/soluciones";
+@import "./pages/contacto";
+
+@import "./components/_nav.sass";
+@import "./components/_footer.sass";
+
+
   /* Inicio personalizacion movile */
-  .nav_bkg {
-    width: 100%;
-    background-color: #141638;
-    // position: fixed;
-    z-index: 1;
-  }
-  .nav_boton ul{
-    text-decoration: none;
-    color: white;
-  }
-  .nav_boton ul li a {
-    font-style: Medium;
-    font-size: 1rem;
-    font-family: "Work Sans Medium", Verdana, sans-serif;
-    line-height: 1.2;
-    font-weight: 500;
-    text-decoration: none;
-    text-align: start;
-  }
+
   .fixedFlecha {
     position: fixed;
     bottom: 20px;
@@ -70,46 +75,7 @@
   .fixedFlecha_img {
     width: 50px;
   }
-  .footer__ {
-    width: 100%;
-    padding: 10px 0;
-    background-color: #171a38;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer_wrapperLogo {
-    height: 80px;
-    display: flex;
-    align-items: center;
-  }
-  .footer_wrapperLogo_img {
-    height: 60px;
-  }
-  .footer_wrapperTxt {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .footer_wrapperTxt_txt {
-    font-style: medium;
-    font-size: 0.9rem;
-    font-family: "Work Sans Medium", Verdana, sans-serif;
-    text-align: center;
-    line-height: 1.5;
-    color: white;
-  }
-  .footer_wrapperRedes {
-    height: 50px;
-    display: flex;
-    align-items: center;
-  }
-  .footer_wrapperRedes_img {
-    width: 50px;
-    padding: 0 10px;
-  }
+  
   .linea {
     width: 100%;
     height: 3px;
@@ -137,260 +103,7 @@
     margin-top: 0px;
     background-color: #ff6600;
   }
-  .main_home {
-    background: linear-gradient(
-        rgba(189, 189, 189, 0.5),
-        rgba(187, 187, 187, 0.5)
-      ),
-      url(../img/inicio/home_peces.jpg);
-    width: 100%;
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-  }
-  .main_home_wrapper {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .main_home_wrapper_title {
-    font-style: normal;
-    font-size: 1.8rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-    text-align: start;
-    line-height: 1.2;
-    color: rgb(0, 0, 50);
-    padding: 2.5rem 0 1rem 0;
-  }
-  .main_home_wrapper_boton {
-    width: 150px;
-    font-style: normal;
-    font-size: 1.1rem;
-    font-family: "Work Sans Medium", Verdana, sans-serif;
-    line-height: 1.2;
-    font-weight: 500;
-    text-align: center;
-    color: rgb(0, 0, 50);
-    background-color: white;
-    padding: 15px 0;
-    border: solid 2px #ff7200;
-    border-radius: 5px;
-    animation: boton_pulse 2s infinite;
-  }
-  .desafioGlobal {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .desafioGlobal_wrapperTxt {
-    width: 80%;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 20px;
-  }
-  .desafioGlobal_wrapperTxt_subtitle {
-    font-style: normal;
-    font-size: 1.8rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-    text-align: start;
-    line-height: 1.2;
-    color: rgb(0, 0, 50);
-    text-align: center;
-    display: flex;
-  }
-  .desafioGlobal_wrapperTxt_txtPlano {
-    font-style: normal;
-    font-size: 1rem;
-    font-family: "Work Sans Medium", Verdana, sans-serif;
-    text-align: start;
-    line-height: 1.2;
-    color: rgb(0, 0, 50);
-    text-align: justify;
-    display: flex;
-  }
-  .desafioGlobal_wrapperCard {
-    width: 100%;
-    padding-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .desafioGlobal_wrapperCard_card {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .desafioGlobal_wrapperCard_card_img {
-    width: 200px;
-    height: 200px;
-  }
-  .desafioGlobal_wrapperCard_card_txtPlano {
-    font-style: normal;
-    font-size: 0.9rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-    text-align: start;
-    line-height: 1.2;
-    color: rgb(0, 0, 50);
-  }
-  .soluciones {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .soluciones_wrapperIzq {
-    width: 100%;
-    height: 20rem;
-    display: flex;
-    background-image: url(../img/inicio/Pescado1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .soluciones_wrapperDer {
-    width: 100%;
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #141638;
-  }
-  .soluciones_wrapperDer_wrapperTxt {
-    width: 90%;
-  }
-  .soluciones_wrapperDer_wrapperTxt_title {
-    font-style: normal;
-    font-size: 1.25rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-    text-align: start;
-    line-height: 1.5;
-    color: white;
-    padding-bottom: 40px;
-    text-align: justify;
-  }
-  .soluciones_wrapperDer_wrapperTxt_boton {
-    font-style: normal;
-    font-size: 0.9rem;
-    font-family: "Work Sans Medium", Verdana, sans-serif;
-    line-height: 1.2;
-    font-weight: 500;
-    text-align: center;
-    color: rgb(0, 0, 50);
-    background-color: white;
-    padding: 15px 40px;
-    border: 0;
-    border-radius: 5px;
-    animation: boton_pulse 2s infinite;
-  }
-  .tecnologia {
-    width: 100%;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .tecnologia_wrapperIzq {
-    width: 100%;
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-  }
-  .tecnologia_wrapperDer {
-    width: 100%;
-    height: 20rem;
-    display: flex;
-    background-image: url(../img/inicio/Piletas1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .tecnologia_wrapperIzq_wrapperTxt {
-    width: 90%;
-  }
-  .tecnologia_wrapperIzq_wrapperTxt_title {
-    font-style: normal;
-    font-size: 1.25rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-    text-align: start;
-    line-height: 1.5;
-    color: rgb(0, 0, 50);
-    padding-bottom: 15px;
-    text-align: start;
-  }
-  .tecnologia_wrapperIzq_wrapperTxt_txtPlano {
-    font-style: normal;
-    font-size: 1rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-    text-align: start;
-    line-height: 1.5;
-    color: rgb(0, 0, 50);
-    padding-bottom: 40px;
-    text-align: start;
-  }
-  .tecnologia_wrapperIzq_wrapperTxt_boton {
-    font-style: normal;
-    font-size: 1rem;
-    font-family: "Work Sans Medium", Verdana, sans-serif;
-    line-height: 1.2;
-    font-weight: 500;
-    color: rgb(0, 0, 50);
-    background-color: white;
-    padding: 15px 40px;
-    border: solid 2px #ff7200;
-    border-radius: 5px;
-    animation: boton_pulse_v2 2s infinite;
-  }
-  .empresas {
-    width: 100%;
-    padding: 15px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .empresas_wrapperTxt {
-    width: 90%;
-  }
-  .empresas_mediumSubtitle {
-    font-style: normal;
-    font-size: 1.25rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-    text-align: center;
-    line-height: 1.5;
-    color: rgb(0, 0, 50);
-  }
-  .slider {
-    width: 40%;
-    height: auto;
-    margin: auto;
-    overflow: hidden;
-  }
-  .slider_empresas_container {
-    display: flex;
-    animation: scroll 20s linear infinite;
-    width: calc(200px * 10);
-  }
-  .empresas_wrapper {
-    width: 200px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }
-  .empresas_logo {
-    width: 100%;
-  }
-  /* Fin personalizacion Index */
+  
   /* Inicio personalizacion About Us */
   .main_aboutUs {
     background: linear-gradient(
@@ -1241,47 +954,7 @@
       width: 200px;
       margin-left: 5%;
     }
-    /* Inicio personalizacion Home */
-    .main_home_wrapper {
-      width: 70%;
-    }
-    .main_home_wrapper_title {
-      font-size: 3rem;
-    }
-    .desafioGlobal_wrapperTxt {
-      height: 80px;
-    }
-    .desafioGlobal_wrapperCard {
-      width: 100%;
-      padding-bottom: 40px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .desafioGlobal_wrapperCard_card {
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .desafioGlobal_wrapperCard_card_img {
-      width: 200px;
-      height: 200px;
-    }
-    .desafioGlobal_wrapperCard_card_txtPlano {
-      font-style: normal;
-      font-size: 0.9rem;
-      font-family: "Work Sans", Verdana, sans-serif;
-      text-align: start;
-      line-height: 1.2;
-      color: rgb(0, 0, 50);
-    }
-    .slider {
-      width: 70%;
-    }
-    /* Fin personalizacion Home */
+
     /* Inicio personalizacion About us */
     .equipo_wrapper {
       flex-direction: row;
@@ -1468,88 +1141,7 @@
       margin-top: 0;
     }
     /* Fin personalizacion footer */
-    /* Inicio personalizacion Home */
-    .main_home_wrapper_title {
-      font-size: 3.2rem;
-    }
-    .desafioGlobal_wrapperTxt {
-      width: 70%;
-    }
-    .desafioGlobal_wrapperTxt_subtitle {
-      font-size: 2rem;
-    }
-    .desafioGlobal_wrapperTxt_txtPlano {
-      font-size: 1.3rem;
-    }
-    .desafioGlobal_wrapperCard {
-      width: 80%;
-      flex-direction: row;
-      flex-wrap: no wrap;
-      justify-content: space-around;
-    }
-    .desafioGlobal_wrapperCard_card {
-      width: 300px;
-    }
-    .desafioGlobal_wrapperCard_card_img:hover {
-      transform: rotate(10deg);
-    }
-    .soluciones {
-      flex-direction: row;
-    }
-    .soluciones_wrapperIzq {
-      width: 50%;
-      height: 40rem;
-    }
-    .soluciones_wrapperDer {
-      width: 50%;
-      height: 40rem;
-    }
-    .soluciones_wrapperDer_wrapperTxt {
-      width: 80%;
-    }
-    .soluciones_wrapperDer_wrapperTxt_title {
-      font-size: 1.5rem;
-    }
-    .tecnologia {
-      flex-direction: row;
-    }
-    .tecnologia_wrapperIzq {
-      width: 50%;
-      height: 40rem;
-    }
-    .tecnologia_wrapperDer {
-      width: 50%;
-      height: 40rem;
-    }
-    .tecnologia_wrapperIzq_wrapperTxt {
-      width: 80%;
-    }
-    .tecnologia_wrapperIzq_wrapperTxt_title {
-      font-size: 2.5rem;
-    }
-    .tecnologia_wrapperIzq_wrapperTxt_txtPlano {
-      font-size: 1.1rem;
-    }
-    .empresas {
-      padding: 30px 0;
-    }
-    .empresas_wrapperTxt {
-      width: 80%;
-    }
-    .empresas_mediumSubtitle {
-      font-size: 1.8rem;
-      text-align: start;
-    }
-    .slider {
-      width: 55%;
-      height: auto;
-      margin: auto;
-      overflow: hidden;
-    }
-    .slider_empresas_container {
-      animation: scroll 40s linear infinite;
-    }
-    /* Fin personalizacion Home */
+
     /* Inicio personalizacion About us */
     .main_aboutUs {
       height: 100vh;
