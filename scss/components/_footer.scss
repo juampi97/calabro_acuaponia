@@ -1,40 +1,26 @@
 .footer_ {
-  width: 100%;
   padding: 10px 0;
-  background-color: #171a38;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   &wrapperLogo {
     height: 80px;
-    display: flex;
-    align-items: center;
     &_img {
       height: 60px;
     }
   }
   &wrapperTxt {
     height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     &_txt {
       font-style: medium;
       font-size: 0.9rem;
-      font-family: "Work Sans Medium", Verdana, sans-serif;
-      text-align: center;
       line-height: 1.5;
-      color: white;
     }
   }
   &wrapperRedes {
     height: 50px;
-    display: flex;
-    align-items: center;
     &_img {
       width: 50px;
-      padding: 0 10px;
     }
   }
 }
