@@ -10272,7 +10272,11 @@ textarea.form-control-lg {
     width: 550px;
     padding: 50px; } }
 
-/* Inicio personalizacion movile */
+/* Generales */
+a {
+  text-decoration: none; }
+
+/* Movile */
 .fixedFlecha {
   position: fixed;
   bottom: 20px;
@@ -10309,11 +10313,13 @@ textarea.form-control-lg {
   margin-top: 0px;
   background-color: #ff6600; }
 
+/* Tablet */
 @media (min-width: 768px) {
   .linea_izq {
     width: 200px;
     margin-left: 5%; } }
 
+/* Desktop */
 @media (min-width: 992px) {
   .fixedFlecha {
     bottom: 40px;

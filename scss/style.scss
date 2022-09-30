@@ -69,7 +69,11 @@ $font-family-sans-serif: Work Sans, Verdana, sans-serif;
 @import "./pages/soluciones";
 @import "./pages/contacto";
 
-/* Inicio personalizacion movile */
+/* Generales */
+a{
+  text-decoration: none;
+}
+/* Movile */
 .fixedFlecha {
   position: fixed;
   bottom: 20px;
@@ -106,14 +110,14 @@ $font-family-sans-serif: Work Sans, Verdana, sans-serif;
   margin-top: 0px;
   background-color: #ff6600;
 }
-
+/* Tablet */
 @media (min-width: 768px) {
   .linea_izq {
     width: 200px;
     margin-left: 5%;
   }
 }
-
+/* Desktop */
 @media (min-width: 992px) {
   .fixedFlecha {
     bottom: 40px;
@@ -133,7 +137,6 @@ $font-family-sans-serif: Work Sans, Verdana, sans-serif;
     margin-top: 0;
   }
 }
-
 /* Inicio animaciones */
 @keyframes boton_pulse {
   0% {
