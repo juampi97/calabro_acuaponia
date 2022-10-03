@@ -33,9 +33,9 @@ $danger: $red;
 $light: $gray-100;
 $dark: $gray-900;
 
-$primario:$azul ;
-$secundario:$naranja ;
-$basico:$white ;
+$primario: $azul;
+$secundario: $naranja;
+$basico: $white;
 
 $theme-colors: (
   "primary": $primary,
@@ -49,10 +49,10 @@ $theme-colors: (
 
   "primario": $azul,
   "secundario": $naranja,
-  "basico": $white
+  "basico": $white,
 );
 
-$font-family-sans-serif: 'Work Sans', sans-serif;
+$font-family-sans-serif: "Work Sans", sans-serif;
 
 // Include any default variable overrides here (though functions won't be available)
 
@@ -70,7 +70,7 @@ $font-family-sans-serif: 'Work Sans', sans-serif;
 @import "./pages/contacto";
 
 /* Generales */
-a{
+a {
   text-decoration: none;
 }
 /* Movile */
@@ -79,36 +79,37 @@ a{
   bottom: 20px;
   right: 20px;
   z-index: 1;
+  &_img {
+    width: 50px;
+  }
 }
-.fixedFlecha_img {
-  width: 50px;
-}
+
 .linea {
   width: 100%;
   height: 3px;
   background-color: #ff6600;
-}
-.linea_small {
-  width: 90%;
-  margin-left: 5%;
-  height: 3px;
-  background-color: #ff6600;
-}
-.linea_izq {
-  width: 20%;
-  max-width: 150px;
-  height: 20px;
-  margin-left: 5%;
-  margin-top: 80px;
-  background-color: #ff6600;
-}
-.linea_izq-mod {
-  width: 20%;
-  max-width: 150px;
-  height: 20px;
-  margin-left: 5%;
-  margin-top: 0px;
-  background-color: #ff6600;
+  &_small {
+    width: 90%;
+    margin-left: 5%;
+    height: 3px;
+    background-color: #ff6600;
+  }
+  &_izq {
+    width: 20%;
+    max-width: 150px;
+    height: 20px;
+    margin-left: 5%;
+    margin-top: 80px;
+    background-color: #ff6600;
+    &-mod {
+      width: 20%;
+      max-width: 150px;
+      height: 20px;
+      margin-left: 5%;
+      margin-top: 0px;
+      background-color: #ff6600;
+    }
+  }
 }
 /* Tablet */
 @media (min-width: 768px) {
@@ -122,19 +123,19 @@ a{
   .fixedFlecha {
     bottom: 40px;
     right: 40px;
-  }
-  .fixedFlecha_img {
-    width: 75px;
+    &_img {
+      width: 75px;
+    }
   }
   .linea_izq {
     width: 200px;
     margin-left: 10%;
     margin-top: 0;
-  }
-  .linea_izq-mod {
-    width: 200px;
-    margin-left: 10%;
-    margin-top: 0;
+    &-mod {
+      width: 200px;
+      margin-left: 10%;
+      margin-top: 0;
+    }
   }
 }
 /* Inicio animaciones */
