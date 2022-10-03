@@ -9426,167 +9426,96 @@ textarea.form-control-lg {
         width: 30vw;
         height: 12vw; } }
 
-.main_contacto {
+.main_contacto_wrapper {
   width: 100%; }
 
-.main_contacto_wrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: column; }
-
 .canalesAtencion {
-  background-color: white;
   width: 100%;
-  padding-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: flex-start; }
-
-.canalesAtencion_wrapperTxt {
-  width: 90%;
-  padding-top: 90px; }
-
-.canalesAtencion_wrapperTxt_title {
-  font-style: normal;
-  font-size: 2rem;
-  font-family: "Work Sans", Verdana, sans-serif;
-  text-align: start;
-  line-height: 1.5;
-  color: #000032; }
-
-.canalesAtencion_wrapperTxt_txt {
-  font-style: normal;
-  font-size: 0.9rem;
-  font-family: "Work Sans", Verdana, sans-serif;
-  text-align: start;
-  line-height: 1.5;
-  color: #000032; }
-
-.canalesAtencion_wrapperCard {
-  width: 80%; }
-
-.canalesAtencion_wrapperCard_card_img {
-  width: 50px;
-  padding-top: 20px; }
+  padding-bottom: 30px; }
+  .canalesAtencion_wrapperTxt {
+    width: 90%;
+    padding-top: 90px; }
+    .canalesAtencion_wrapperTxt_title {
+      font-size: 2rem;
+      line-height: 1.5; }
+    .canalesAtencion_wrapperTxt_txt {
+      font-size: 0.9rem;
+      line-height: 1.5; }
+  .canalesAtencion_wrapperCard {
+    width: 80%; }
+    .canalesAtencion_wrapperCard_card_img {
+      width: 50px;
+      padding-top: 20px; }
+    .canalesAtencion_wrapperCard_card_title {
+      font-size: 1.3rem;
+      padding-top: 10px; }
+    .canalesAtencion_wrapperCard_card_txt {
+      font-size: 0.9rem;
+      padding-top: 5px; }
 
 .a_icon_social img:last-child {
   display: none; }
 
-.canalesAtencion_wrapperCard_card_title {
-  font-style: normal;
-  font-size: 1.3rem;
-  font-family: "Work Sans", Verdana, sans-serif;
-  text-align: start;
-  line-height: 1.2;
-  color: #000032;
-  padding-top: 10px; }
-
-.canalesAtencion_wrapperCard_card_txt {
-  font-style: normal;
-  font-size: 0.9rem;
-  font-family: "Work Sans", Verdana, sans-serif;
-  text-align: start;
-  line-height: 1.2;
-  color: #000032;
-  padding-top: 10px; }
-
 .ubicacion {
-  background-color: #141638;
   width: 100%;
-  padding-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: flex-start; }
-
-.ubicacion_wrapperTxt {
-  width: 90%;
-  padding-top: 20px; }
-
-.ubicacion_title {
-  font-style: normal;
-  font-size: 2rem;
-  font-family: "Work Sans", Verdana, sans-serif;
-  text-align: start;
-  line-height: 1.5;
-  color: white; }
-
-.ubicacion_wrapperFrame {
-  width: 90%;
-  padding: 20px 0; }
-
-.ubicacion_wrapperFrame iframe {
-  width: 100%; }
-
-.formulario {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: flex-start; }
+  padding-bottom: 50px; }
+  .ubicacion_wrapperTxt {
+    width: 90%;
+    padding-top: 20px; }
+  .ubicacion_title {
+    font-size: 2rem;
+    line-height: 1.5; }
+  .ubicacion_wrapperFrame {
+    width: 90%;
+    padding: 20px 0; }
+    .ubicacion_wrapperFrame iframe {
+      width: 100%; }
 
 .formulario_wrapperTxt {
   width: 80%;
   padding: 20px 0 20px 0; }
-
-.formulario_wrapperTxt_title {
-  font-style: normal;
-  font-size: 2rem;
-  font-family: "Work Sans", Verdana, sans-serif;
-  text-align: start;
-  line-height: 1.5;
-  color: #000032; }
+  .formulario_wrapperTxt_title {
+    font-size: 2rem;
+    line-height: 1.5; }
 
 .formulario_container {
   width: 80%;
-  display: flex;
-  justify-content: space-around;
   padding-bottom: 40px; }
-
-.formulario_container_wrapper {
-  width: 90%;
-  font-style: normal;
-  font-size: 1rem;
-  font-family: "Work Sans", Verdana, sans-serif;
-  text-align: start;
-  line-height: 1.5;
-  padding: 10px;
-  border: solid 3px #ff6600;
-  border-radius: 20px; }
+  .formulario_container_wrapper {
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 10px;
+    border: solid 3px #ff6600;
+    border-radius: 20px; }
 
 @media (min-width: 992px) {
   .main_contacto {
     padding-top: 60px; }
-  .main_contacto_wrapper {
-    display: grid;
-    grid-template-areas: "canalesAtencion ubicacion";
-    grid-template-columns: repeat(2, 1fr); }
   .canalesAtencion {
+    width: 50%;
     padding-bottom: 50px; }
-  .canalesAtencion_wrapperTxt {
-    width: 80%;
-    padding-top: 40px; }
+    .canalesAtencion_wrapperTxt {
+      width: 80%;
+      padding-top: 40px; }
   .a_icon_social img:last-child {
     display: none; }
   .a_icon_social:hover img:last-child {
     display: block; }
   .a_icon_social:hover img:first-child {
     display: none; }
-  .ubicacion_wrapperTxt {
-    width: 80%;
-    padding-top: 40px; }
-  .ubicacion_title {
-    font-style: normal;
-    font-size: 2rem;
-    font-family: "Work Sans", Verdana, sans-serif;
-    text-align: start;
-    line-height: 1.5;
-    color: white; }
-  .ubicacion_wrapperFrame {
-    padding: 40px 0; }
-  .ubicacion_wrapperFrame iframe {
-    height: 375px; }
+  .ubicacion {
+    width: 50%; }
+    .ubicacion_wrapperTxt {
+      width: 80%;
+      padding-top: 40px; }
+    .ubicacion_title {
+      font-size: 2rem;
+      line-height: 1.5; }
+    .ubicacion_wrapperFrame {
+      padding: 40px 0; }
+      .ubicacion_wrapperFrame iframe {
+        height: 375px; }
   .formulario_wrapperTxt {
     padding: 40px 0 20px 0; }
   .formulario_container_wrapper {
