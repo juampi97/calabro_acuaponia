@@ -10,7 +10,7 @@
     width: 90%;
     padding-top: 90px;
     &_title {
-      font-size: 2rem;
+      font-size: 1.4rem;
       line-height: 1.5;
     }
     &_txt {
@@ -41,18 +41,17 @@
 }
 .ubicacion {
   width: 100%;
-  padding-bottom: 50px;
   &_wrapperTxt {
     width: 90%;
     padding-top: 20px;
   }
   &_title {
-    font-size: 2rem;
+    font-size: 1.4rem;
     line-height: 1.5;
   }
   &_wrapperFrame {
-    width: 90%;
-    padding: 20px 0;
+    width: 100%;
+    padding: 20px 0 0 0;
     & iframe {
       width: 100%;
     }
@@ -91,6 +90,10 @@
     &_wrapperTxt {
       width: 80%;
       padding-top: 40px;
+      &_title {
+        font-size: 1.7rem;
+        line-height: 1.5;
+      }
     }
   }
   .a_icon_social {
@@ -111,13 +114,13 @@
       padding-top: 40px;
     }
     &_title {
-      font-size: 2rem;
+      font-size: 1.7rem;
       line-height: 1.5;
     }
     &_wrapperFrame {
-      padding: 40px 0;
+      padding: 30px 0 0 0;
       & iframe {
-        height: 375px;
+        height: 600px;
       }
     }
   }

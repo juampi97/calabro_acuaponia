@@ -9490,7 +9490,7 @@ a {
     width: 90%;
     padding-top: 90px; }
     .canalesAtencion_wrapperTxt_title {
-      font-size: 2rem;
+      font-size: 1.4rem;
       line-height: 1.5; }
     .canalesAtencion_wrapperTxt_txt {
       font-size: 0.9rem;
@@ -9511,17 +9511,16 @@ a {
   display: none; }
 
 .ubicacion {
-  width: 100%;
-  padding-bottom: 50px; }
+  width: 100%; }
   .ubicacion_wrapperTxt {
     width: 90%;
     padding-top: 20px; }
   .ubicacion_title {
-    font-size: 2rem;
+    font-size: 1.4rem;
     line-height: 1.5; }
   .ubicacion_wrapperFrame {
-    width: 90%;
-    padding: 20px 0; }
+    width: 100%;
+    padding: 20px 0 0 0; }
     .ubicacion_wrapperFrame iframe {
       width: 100%; }
 
@@ -9552,6 +9551,9 @@ a {
     .canalesAtencion_wrapperTxt {
       width: 80%;
       padding-top: 40px; }
+      .canalesAtencion_wrapperTxt_title {
+        font-size: 1.7rem;
+        line-height: 1.5; }
   .a_icon_social img:last-child {
     display: none; }
   .a_icon_social:hover img:last-child {
@@ -9564,12 +9566,12 @@ a {
       width: 80%;
       padding-top: 40px; }
     .ubicacion_title {
-      font-size: 2rem;
+      font-size: 1.7rem;
       line-height: 1.5; }
     .ubicacion_wrapperFrame {
-      padding: 40px 0; }
+      padding: 30px 0 0 0; }
       .ubicacion_wrapperFrame iframe {
-        height: 375px; }
+        height: 600px; }
   .formulario_wrapperTxt {
     padding: 40px 0 20px 0; }
   .formulario_container_wrapper {
