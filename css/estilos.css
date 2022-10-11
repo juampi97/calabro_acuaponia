@@ -9528,7 +9528,7 @@ a {
   width: 80%;
   padding: 20px 0 20px 0; }
   .formulario_wrapperTxt_title {
-    font-size: 2rem;
+    font-size: 1.4rem;
     line-height: 1.5; }
 
 .formulario_container {
@@ -9573,7 +9573,10 @@ a {
       .ubicacion_wrapperFrame iframe {
         height: 600px; }
   .formulario_wrapperTxt {
-    padding: 40px 0 20px 0; }
+    padding: 30px 0 20px 0; }
+    .formulario_wrapperTxt_title {
+      font-size: 2rem;
+      line-height: 1.5; }
   .formulario_container_wrapper {
     width: 550px;
     padding: 50px; } }
