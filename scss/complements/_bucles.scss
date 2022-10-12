@@ -1,11 +1,6 @@
-@for $size from 1 to 6 {
-    .fuente_s-#{size} {
-        font-size: 0.5*1rem*$size;
-        @media (min-width: 768px) {
-            font-size: 0.5*1rem*$size*1.5;
-        }
-        @media (min-width: 992px) {
-            font-size: 0.5*1rem*$size*2;
-        }
-    }
+%fondo-translucido {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

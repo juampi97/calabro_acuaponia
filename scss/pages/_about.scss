@@ -5,10 +5,7 @@
     ),
     url(../img/about_us/cientificos.jpg);
   width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  @extend %fondo-translucido;
   &_wrapper {
     width: 80%;
     &_title {

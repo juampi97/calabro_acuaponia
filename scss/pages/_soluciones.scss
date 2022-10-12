@@ -4,10 +4,7 @@
       rgba(187, 187, 187, 0.5)
     ),
     url(../img/solucion/fondas_ras.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    @extend %fondo-translucido;
   &_wrapperTxt {
     width: 90%;
     height: 100%;

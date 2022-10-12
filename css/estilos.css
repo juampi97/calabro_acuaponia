@@ -8722,11 +8722,7 @@ a {
       margin-top: 0; } }
 
 .main_home {
-  background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(187, 187, 187, 0.5)), url(../img/inicio/home_peces.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(187, 187, 187, 0.5)), url(../img/inicio/home_peces.jpg); }
   .main_home_wrapper {
     width: 90%; }
     .main_home_wrapper_title {
@@ -8894,11 +8890,7 @@ a {
 
 .main_aboutUs {
   background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(187, 187, 187, 0.5)), url(../img/about_us/cientificos.jpg);
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  width: 100%; }
   .main_aboutUs_wrapper {
     width: 80%; }
     .main_aboutUs_wrapper_title {
@@ -9315,11 +9307,7 @@ a {
       padding: 50px 0; } }
 
 .main_solucion {
-  background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(187, 187, 187, 0.5)), url(../img/solucion/fondas_ras.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(187, 187, 187, 0.5)), url(../img/solucion/fondas_ras.jpg); }
   .main_solucion_wrapperTxt {
     width: 90%;
     height: 100%;
@@ -9580,6 +9568,12 @@ a {
   .formulario_container_wrapper {
     width: 550px;
     padding: 50px; } }
+
+.main_home, .main_aboutUs, .main_solucion {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 @keyframes boton_pulse {
   0% {
