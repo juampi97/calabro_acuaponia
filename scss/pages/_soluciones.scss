@@ -139,7 +139,7 @@
     &_wrapperCard {
       width: 90%;
       &_card {
-        @include sizes(350px, 300px);
+        @include sizes(350px, 350px);
       }
     }
   }
