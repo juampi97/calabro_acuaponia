@@ -27,10 +27,10 @@
     height: 120px;
     padding-top: 20px;
     &_subtitle {
-      @include txt_size(1.8rem,1.2)
+      @include txt_size(1.8rem, 1.2);
     }
     &_txtPlano {
-      @include txt_size(1rem,1.2)
+      @include txt_size(1rem, 1.2);
     }
   }
   &_wrapperCard {
@@ -58,7 +58,7 @@
     &_wrapperTxt {
       width: 90%;
       &_title {
-        @include txt_size(1.25rem,1.5);
+        @include txt_size(1.25rem, 1.5);
         padding-bottom: 40px;
       }
       &_boton {
@@ -83,11 +83,11 @@
     &_wrapperTxt {
       width: 90%;
       &_title {
-        @include txt_size(1.25rem,1.5);
+        @include txt_size(1.25rem, 1.5);
         padding-bottom: 15px;
       }
       &_txtPlano {
-        @include txt_size(1rem,1.5);
+        @include txt_size(1rem, 1.5);
         padding-bottom: 40px;
       }
       &_boton {
@@ -170,10 +170,10 @@
   }
   .soluciones {
     &_wrapperIzq {
-      @include sizes(50%,40rem);
+      @include sizes(50%, 40rem);
     }
     &_wrapperDer {
-      @include sizes(50%,40rem);
+      @include sizes(50%, 40rem);
       &_wrapperTxt {
         width: 80%;
         &_title {
@@ -184,10 +184,10 @@
   }
   .tecnologia {
     &_wrapperDer {
-      @include sizes(50%,40rem);
+      @include sizes(50%, 40rem);
     }
     &_wrapperIzq {
-      @include sizes(50%,40rem);
+      @include sizes(50%, 40rem);
       &_wrapperTxt {
         width: 80%;
         &_title {

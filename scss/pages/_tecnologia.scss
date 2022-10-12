@@ -17,7 +17,7 @@
   }
   &_wrapperCard_card {
     position: relative;
-    @include sizes(80vw,40vw);
+    @include sizes(80vw, 40vw);
     margin-bottom: 20px;
     & .face {
       position: absolute;
@@ -35,10 +35,10 @@
         object-fit: cover;
       }
       & h3 {
-        @include txt_size(1rem,45px);
+        @include txt_size(1rem, 45px);
         position: absolute;
         bottom: 0;
-        @include sizes(100%,45px);
+        @include sizes(100%, 45px);
         background-color: rgba(0, 0, 0, 0.5);
       }
     }
@@ -66,7 +66,7 @@
   }
   &_wrapperCard_card {
     position: relative;
-    @include sizes(80vw,40vw);
+    @include sizes(80vw, 40vw);
     margin-bottom: 20px;
     & .face {
       position: absolute;
@@ -84,13 +84,13 @@
         object-fit: cover;
       }
       & h3 {
-        @include txt_size(1rem,45px);
+        @include txt_size(1rem, 45px);
         text-align: center;
         margin-bottom: 0;
 
         position: absolute;
         bottom: 0;
-        @include sizes(100%,45px);
+        @include sizes(100%, 45px);
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.5);
       }
@@ -147,7 +147,7 @@
       font-size: 2rem;
     }
     &_txt {
-      @include txt_size(1rem,1.4);
+      @include txt_size(1rem, 1.4);
       text-align: justify;
     }
   }
@@ -172,7 +172,7 @@
       grid-template-columns: repeat(2fr, 1fr);
       gap: 10px;
       &_card {
-        @include sizes(40vw,20vw);
+        @include sizes(40vw, 20vw);
       }
     }
   }
@@ -190,7 +190,7 @@
       grid-template-columns: repeat(2fr, 1fr);
       gap: 10px;
       &_card {
-        @include sizes(40vw,20vw);
+        @include sizes(40vw, 20vw);
       }
     }
     &_wrapperTxt_title {
@@ -218,13 +218,13 @@
     &_wrapperCard {
       gap: 50px;
       &_card {
-        @include sizes(30vw,15vw);
+        @include sizes(30vw, 15vw);
         & .face {
           transition: 500ms;
         }
         & .back {
           visibility: visible;
-          @include txt_size(1rem,1.5);
+          @include txt_size(1rem, 1.5);
           transform: perspective(600px) rotateY(180deg);
           background: rgba(207, 117, 0, 0.671);
           padding: 15px;
@@ -254,13 +254,13 @@
     &_wrapperCard {
       gap: 50px;
       &_card {
-        @include sizes(30vw,15vw);
+        @include sizes(30vw, 15vw);
         & .face {
           transition: 500ms;
         }
         & .back {
           visibility: visible;
-          @include txt_size(1rem,1.5);
+          @include txt_size(1rem, 1.5);
           transform: perspective(600px) rotateY(180deg);
           background: rgba(207, 117, 0, 0.671);
           padding: 15px;
@@ -293,7 +293,7 @@
         font-size: 4.5rem;
       }
       &_txt {
-        @include txt_size(1.5rem,1.6);
+        @include txt_size(1.5rem, 1.6);
       }
     }
     &_wrapperImg {
@@ -317,7 +317,7 @@
         font-size: 4.5rem;
       }
       &_txt {
-        @include txt_size(1.4rem,1.5);
+        @include txt_size(1.4rem, 1.5);
       }
     }
     .s_tecnologia_wrapperVideo {

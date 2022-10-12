@@ -10,10 +10,10 @@
     width: 90%;
     padding-top: 90px;
     &_title {
-      @include txt_size(1.4rem,1.5);
+      @include txt_size(1.4rem, 1.5);
     }
     &_txt {
-      @include txt_size(0.9rem,1.5);
+      @include txt_size(0.9rem, 1.5);
     }
   }
   &_wrapperCard {
@@ -44,7 +44,7 @@
     padding-top: 20px;
   }
   &_title {
-    @include txt_size(1.4rem,1.5);
+    @include txt_size(1.4rem, 1.5);
   }
   &_wrapperFrame {
     width: 100%;
@@ -59,7 +59,7 @@
     width: 90%;
     padding: 20px 0 20px 0;
     &_title {
-      @include txt_size(1.4rem,1.5);
+      @include txt_size(1.4rem, 1.5);
     }
   }
   &_container {
@@ -67,7 +67,7 @@
     padding-bottom: 40px;
     &_wrapper {
       width: 90%;
-      @include txt_size(1rem,1.5);
+      @include txt_size(1rem, 1.5);
       padding: 15px;
       border: solid 3px #ff6600;
       border-radius: 20px;
@@ -86,7 +86,7 @@
       width: 80%;
       padding-top: 40px;
       &_title {
-        @include txt_size(1.7rem,1.5);
+        @include txt_size(1.7rem, 1.5);
       }
     }
   }
@@ -108,7 +108,7 @@
       padding-top: 40px;
     }
     &_title {
-      @include txt_size(1.7rem,1.5);
+      @include txt_size(1.7rem, 1.5);
     }
     &_wrapperFrame {
       padding: 30px 0 0 0;
@@ -121,7 +121,7 @@
     &_wrapperTxt {
       padding: 30px 0 20px 0;
       &_title {
-        @include txt_size(2rem,1.5);
+        @include txt_size(2rem, 1.5);
       }
     }
     &_container_wrapper {
