@@ -8753,17 +8753,14 @@ a {
     .desafioGlobal_wrapperCard_card {
       width: 90%; }
       .desafioGlobal_wrapperCard_card_img {
-        width: 200px;
-        height: 200px; }
+        height: 200px;
+        width: 200px; }
       .desafioGlobal_wrapperCard_card_txtPlano {
         font-size: 0.9rem; }
 
 .soluciones_wrapperIzq {
   height: 20rem;
-  background-image: url(../img/inicio/Pescado1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  background-image: url(../img/inicio/Pescado1.jpg); }
 
 .soluciones_wrapperDer {
   height: 20rem; }
@@ -8783,10 +8780,7 @@ a {
 
 .tecnologia_wrapperDer {
   height: 20rem;
-  background-image: url(../img/inicio/Piletas1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  background-image: url(../img/inicio/Piletas1.jpg); }
 
 .tecnologia_wrapperIzq {
   height: 20rem; }
@@ -8834,9 +8828,6 @@ a {
     padding-bottom: 40px; }
     .desafioGlobal_wrapperCard_card {
       width: 40%; }
-      .desafioGlobal_wrapperCard_card_img {
-        width: 200px;
-        height: 200px; }
   .slider {
     width: 70%; } }
 
@@ -8856,21 +8847,21 @@ a {
       .desafioGlobal_wrapperCard_card_img:hover {
         transform: rotate(10deg); }
   .soluciones_wrapperIzq {
-    width: 50%;
-    height: 40rem; }
+    height: 40rem;
+    width: 50%; }
   .soluciones_wrapperDer {
-    width: 50%;
-    height: 40rem; }
+    height: 40rem;
+    width: 50%; }
     .soluciones_wrapperDer_wrapperTxt {
       width: 80%; }
       .soluciones_wrapperDer_wrapperTxt_title {
         font-size: 1.5rem; }
   .tecnologia_wrapperDer {
-    width: 50%;
-    height: 40rem; }
+    height: 40rem;
+    width: 50%; }
   .tecnologia_wrapperIzq {
-    width: 50%;
-    height: 40rem; }
+    height: 40rem;
+    width: 50%; }
     .tecnologia_wrapperIzq_wrapperTxt {
       width: 80%; }
       .tecnologia_wrapperIzq_wrapperTxt_title {
@@ -8963,13 +8954,13 @@ a {
       border-radius: 6px;
       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); }
       .equipo_contenedor figure img {
-        width: 100%;
-        height: 100%; }
+        height: 100%;
+        width: 100%; }
     .equipo_contenedor_capa {
       position: absolute;
       top: 0;
-      width: 100%;
       height: 20%;
+      width: 100%;
       margin-top: 80%;
       background: rgba(123, 66, 0, 0.7); }
       .equipo_contenedor_capa h3, .equipo_contenedor_capa .h3 {
@@ -9027,8 +9018,8 @@ a {
     .equipo_contenedor figure img {
       transition: all 500ms ease-out; }
   .equipo_contenedor_capa {
-    width: 100%;
     height: 100%;
+    width: 100%;
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden; }
@@ -9063,13 +9054,13 @@ a {
     width: 100%; }
   .impactoAmbiental_wrapperCard_card {
     position: relative;
-    width: 80vw;
     height: 40vw;
+    width: 80vw;
     margin-bottom: 20px; }
     .impactoAmbiental_wrapperCard_card .face {
       position: absolute;
-      width: 100%;
       height: 100%;
+      width: 100%;
       backface-visibility: hidden;
       border-radius: 10px;
       overflow: hidden; }
@@ -9078,16 +9069,16 @@ a {
       box-shadow: 0 5px 10px #000; }
       .impactoAmbiental_wrapperCard_card .front img {
         position: absolute;
-        width: 100%;
         height: 100%;
+        width: 100%;
         object-fit: cover; }
       .impactoAmbiental_wrapperCard_card .front h3, .impactoAmbiental_wrapperCard_card .front .h3 {
         font-size: 1rem;
         line-height: 45px;
         position: absolute;
         bottom: 0;
-        width: 100%;
         height: 45px;
+        width: 100%;
         background-color: rgba(0, 0, 0, 0.5); }
     .impactoAmbiental_wrapperCard_card .back {
       visibility: hidden; }
@@ -9107,13 +9098,13 @@ a {
     width: 100%; }
   .impactoSocial_wrapperCard_card {
     position: relative;
-    width: 80vw;
     height: 40vw;
+    width: 80vw;
     margin-bottom: 20px; }
     .impactoSocial_wrapperCard_card .face {
       position: absolute;
-      width: 100%;
       height: 100%;
+      width: 100%;
       backface-visibility: hidden;
       border-radius: 10px;
       overflow: hidden; }
@@ -9122,8 +9113,8 @@ a {
       box-shadow: 0 5px 10px #000; }
       .impactoSocial_wrapperCard_card .front img {
         position: absolute;
-        width: 100%;
         height: 100%;
+        width: 100%;
         object-fit: cover; }
       .impactoSocial_wrapperCard_card .front h3, .impactoSocial_wrapperCard_card .front .h3 {
         font-size: 1rem;
@@ -9132,8 +9123,8 @@ a {
         margin-bottom: 0;
         position: absolute;
         bottom: 0;
-        width: 100%;
         height: 45px;
+        width: 100%;
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.5); }
     .impactoSocial_wrapperCard_card .back {
@@ -9176,8 +9167,8 @@ a {
       font-size: 2rem; }
     .s_tecnologia_wrapperTxt_txt {
       font-size: 1rem;
-      text-align: justify;
-      line-height: 1.4; }
+      line-height: 1.4;
+      text-align: justify; }
   .s_tecnologia_wrapperVideo {
     width: 90%;
     padding: 20px 0 0 0; }
@@ -9193,8 +9184,8 @@ a {
     grid-template-columns: repeat(2fr, 1fr);
     gap: 10px; }
     .impactoAmbiental_wrapperCard_card {
-      width: 40vw;
-      height: 20vw; }
+      height: 20vw;
+      width: 40vw; }
   .impactoSocial_wrapperTxt_title {
     padding: 20px 5%;
     font-size: 3rem; }
@@ -9205,8 +9196,8 @@ a {
     grid-template-columns: repeat(2fr, 1fr);
     gap: 10px; }
     .impactoSocial_wrapperCard_card {
-      width: 40vw;
-      height: 20vw; }
+      height: 20vw;
+      width: 40vw; }
   .impactoSocial_wrapperTxt_title {
     font-size: 3rem; }
   .s_tecnologia_wrapperLine {
@@ -9224,8 +9215,8 @@ a {
     .impactoAmbiental_wrapperCard {
       gap: 50px; }
       .impactoAmbiental_wrapperCard_card {
-        width: 30vw;
-        height: 15vw; }
+        height: 15vw;
+        width: 30vw; }
         .impactoAmbiental_wrapperCard_card .face {
           transition: 500ms; }
         .impactoAmbiental_wrapperCard_card .back {
@@ -9252,8 +9243,8 @@ a {
     .impactoSocial_wrapperCard {
       gap: 50px; }
       .impactoSocial_wrapperCard_card {
-        width: 30vw;
-        height: 15vw; }
+        height: 15vw;
+        width: 30vw; }
         .impactoSocial_wrapperCard_card .face {
           transition: 500ms; }
         .impactoSocial_wrapperCard_card .back {
@@ -9309,8 +9300,8 @@ a {
 .main_solucion {
   background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(187, 187, 187, 0.5)), url(../img/solucion/fondas_ras.jpg); }
   .main_solucion_wrapperTxt {
-    width: 90%;
     height: 100%;
+    width: 90%;
     padding-left: 5%; }
     .main_solucion_wrapperTxt_title {
       font-size: 2rem;
@@ -9335,10 +9326,7 @@ a {
 .solucionIntegral_wrapperImg {
   width: 100%;
   min-height: 200px;
-  background-image: url(../img/solucion/agua_peces.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  background-image: url(../img/solucion/agua_peces.jpg); }
 
 .solucionIntegral_wrapperTxt {
   width: 90%;
@@ -9349,8 +9337,8 @@ a {
     padding-bottom: 20px; }
   .solucionIntegral_wrapperTxt_txt {
     font-size: 1.1rem;
-    text-align: justify;
-    line-height: 1.5; }
+    line-height: 1.5;
+    text-align: justify; }
 
 .servicios {
   padding: 30px 0; }
@@ -9371,15 +9359,15 @@ a {
         line-height: 1.4; }
       .servicios_wrapperCard_card_txt {
         font-size: 1rem;
-        text-align: justify;
-        line-height: 1.5; }
+        line-height: 1.5;
+        text-align: justify; }
 
 .especiesIntro_container {
   width: 100%; }
 
 .especiesIntro_wrapperTxt {
-  width: 80%;
   height: 100%;
+  width: 80%;
   padding: 30px 0; }
   .especiesIntro_wrapperTxt_title {
     font-size: 2rem;
@@ -9392,11 +9380,11 @@ a {
   width: 100%;
   padding: 30px 0; }
   .especiesIntro_wrapperCard_card {
-    width: 350px;
-    height: 200px; }
+    height: 200px;
+    width: 350px; }
     .especiesIntro_wrapperCard_card_img {
-      width: 300px;
-      height: 150px; }
+      height: 150px;
+      width: 300px; }
     .especiesIntro_wrapperCard_card_title {
       font-size: 1.3rem;
       line-height: 1.4; }
@@ -9422,8 +9410,8 @@ a {
   .servicios_wrapperCard {
     width: 90%; }
     .servicios_wrapperCard_card {
-      width: 350px;
-      height: 350px; } }
+      height: 300px;
+      width: 350px; } }
 
 @media (min-width: 992px) {
   .main_solucion_wrapperTxt {
@@ -9432,8 +9420,8 @@ a {
     .main_solucion_wrapperTxt_title {
       font-size: 3rem; }
   .pap_wrapperCard_card {
-    width: 200px;
-    height: 200px; }
+    height: 200px;
+    width: 200px; }
   .solucionIntegral_wrapperImg {
     width: 50%; }
   .solucionIntegral_wrapperTxt {
@@ -9462,11 +9450,11 @@ a {
   .especiesIntro_wrapperCard {
     width: 80%; }
     .especiesIntro_wrapperCard_wrapperCard_card {
-      width: 33vw;
-      height: 14vw; }
+      height: 14vw;
+      width: 33vw; }
       .especiesIntro_wrapperCard_wrapperCard_card_img {
-        width: 30vw;
-        height: 12vw; } }
+        height: 12vw;
+        width: 30vw; } }
 
 .main_contacto_wrapper {
   width: 100%; }
@@ -9513,20 +9501,20 @@ a {
       width: 100%; }
 
 .formulario_wrapperTxt {
-  width: 80%;
+  width: 90%;
   padding: 20px 0 20px 0; }
   .formulario_wrapperTxt_title {
     font-size: 1.4rem;
     line-height: 1.5; }
 
 .formulario_container {
-  width: 80%;
+  width: 90%;
   padding-bottom: 40px; }
   .formulario_container_wrapper {
     width: 90%;
     font-size: 1rem;
     line-height: 1.5;
-    padding: 10px;
+    padding: 15px;
     border: solid 3px #ff6600;
     border-radius: 20px; }
 
@@ -9574,6 +9562,11 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.soluciones_wrapperIzq, .tecnologia_wrapperDer, .solucionIntegral_wrapperImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 @keyframes boton_pulse {
   0% {

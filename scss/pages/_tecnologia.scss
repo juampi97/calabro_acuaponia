@@ -17,13 +17,11 @@
   }
   &_wrapperCard_card {
     position: relative;
-    width: 80vw;
-    height: 40vw;
+    @include sizes(80vw,40vw);
     margin-bottom: 20px;
     & .face {
       position: absolute;
-      width: 100%;
-      height: 100%;
+      @include sizes(100%);
       backface-visibility: hidden;
       border-radius: 10px;
       overflow: hidden;
@@ -33,17 +31,14 @@
       box-shadow: 0 5px 10px #000;
       & img {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        @include sizes(100%);
         object-fit: cover;
       }
       & h3 {
-        font-size: 1rem;
-        line-height: 45px;
+        @include txt_size(1rem,45px);
         position: absolute;
         bottom: 0;
-        width: 100%;
-        height: 45px;
+        @include sizes(100%,45px);
         background-color: rgba(0, 0, 0, 0.5);
       }
     }
@@ -71,13 +66,11 @@
   }
   &_wrapperCard_card {
     position: relative;
-    width: 80vw;
-    height: 40vw;
+    @include sizes(80vw,40vw);
     margin-bottom: 20px;
     & .face {
       position: absolute;
-      width: 100%;
-      height: 100%;
+      @include sizes(100%);
       backface-visibility: hidden;
       border-radius: 10px;
       overflow: hidden;
@@ -87,20 +80,17 @@
       box-shadow: 0 5px 10px #000;
       & img {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        @include sizes(100%);
         object-fit: cover;
       }
       & h3 {
-        font-size: 1rem;
-        line-height: 45px;
+        @include txt_size(1rem,45px);
         text-align: center;
         margin-bottom: 0;
 
         position: absolute;
         bottom: 0;
-        width: 100%;
-        height: 45px;
+        @include sizes(100%,45px);
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.5);
       }
@@ -157,9 +147,8 @@
       font-size: 2rem;
     }
     &_txt {
-      font-size: 1rem;
+      @include txt_size(1rem,1.4);
       text-align: justify;
-      line-height: 1.4;
     }
   }
   &_wrapperVideo {
@@ -183,8 +172,7 @@
       grid-template-columns: repeat(2fr, 1fr);
       gap: 10px;
       &_card {
-        width: 40vw;
-        height: 20vw;
+        @include sizes(40vw,20vw);
       }
     }
   }
@@ -202,8 +190,7 @@
       grid-template-columns: repeat(2fr, 1fr);
       gap: 10px;
       &_card {
-        width: 40vw;
-        height: 20vw;
+        @include sizes(40vw,20vw);
       }
     }
     &_wrapperTxt_title {
@@ -231,15 +218,13 @@
     &_wrapperCard {
       gap: 50px;
       &_card {
-        width: 30vw;
-        height: 15vw;
+        @include sizes(30vw,15vw);
         & .face {
           transition: 500ms;
         }
         & .back {
           visibility: visible;
-          font-size: 1rem;
-          line-height: 1.5;
+          @include txt_size(1rem,1.5);
           transform: perspective(600px) rotateY(180deg);
           background: rgba(207, 117, 0, 0.671);
           padding: 15px;
@@ -269,15 +254,13 @@
     &_wrapperCard {
       gap: 50px;
       &_card {
-        width: 30vw;
-        height: 15vw;
+        @include sizes(30vw,15vw);
         & .face {
           transition: 500ms;
         }
         & .back {
           visibility: visible;
-          font-size: 1rem;
-          line-height: 1.5;
+          @include txt_size(1rem,1.5);
           transform: perspective(600px) rotateY(180deg);
           background: rgba(207, 117, 0, 0.671);
           padding: 15px;
@@ -310,8 +293,7 @@
         font-size: 4.5rem;
       }
       &_txt {
-        font-size: 1.5rem;
-        line-height: 1.6;
+        @include txt_size(1.5rem,1.6);
       }
     }
     &_wrapperImg {
@@ -335,8 +317,7 @@
         font-size: 4.5rem;
       }
       &_txt {
-        font-size: 1.4rem;
-        line-height: 1.5;
+        @include txt_size(1.4rem,1.5);
       }
     }
     .s_tecnologia_wrapperVideo {

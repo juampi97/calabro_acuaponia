@@ -4,14 +4,12 @@
       rgba(187, 187, 187, 0.5)
     ),
     url(../img/solucion/fondas_ras.jpg);
-    @extend %fondo-translucido;
+  @extend %fondo-translucido;
   &_wrapperTxt {
-    width: 90%;
-    height: 100%;
+    @include sizes(90%, 100%);
     padding-left: 5%;
     &_title {
-      font-size: 2rem;
-      line-height: 1.5;
+      @include txt_size(2rem, 1.5);
     }
   }
 }
@@ -41,9 +39,7 @@
     width: 100%;
     min-height: 200px;
     background-image: url(../img/solucion/agua_peces.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    @extend %fondo-imagen;
   }
   &_wrapperTxt {
     width: 90%;
@@ -54,9 +50,8 @@
       padding-bottom: 20px;
     }
     &_txt {
-      font-size: 1.1rem;
+      @include txt_size(1.1rem, 1.5);
       text-align: justify;
-      line-height: 1.5;
     }
   }
 }
@@ -72,18 +67,15 @@
       margin-right: 10px;
       border: solid #ff6600 3px;
       border-radius: 40px;
-
       &_img {
         width: 50px;
       }
       &_title {
-        font-size: 1.5rem;
-        line-height: 1.4;
+        @include txt_size(1.5rem, 1.4);
       }
       &_txt {
-        font-size: 1rem;
+        @include txt_size(1rem, 1.5);
         text-align: justify;
-        line-height: 1.5;
       }
     }
   }
@@ -93,35 +85,29 @@
     width: 100%;
   }
   &_wrapperTxt {
-    width: 80%;
-    height: 100%;
+    @include sizes(80%, 100%);
     padding: 30px 0;
     &_title {
       font-size: 2rem;
       padding-bottom: 20px;
     }
     &_txt {
-      font-size: 1rem;
-      line-height: 1.5;
+      @include txt_size(1rem, 1.5);
     }
   }
   &_wrapperCard {
     width: 100%;
     padding: 30px 0;
     &_card {
-      width: 350px;
-      height: 200px;
+      @include sizes(350px, 200px);
       &_img {
-        width: 300px;
-        height: 150px;
+        @include sizes(300px, 150px);
       }
       &_title {
-        font-size: 1.3rem;
-        line-height: 1.4;
+        @include txt_size(1.3rem, 1.4);
       }
       &_txt {
-        font-size: 0.9rem;
-        line-height: 1.4;
+        @include txt_size(0.9rem, 1.4);
       }
     }
   }
@@ -153,8 +139,7 @@
     &_wrapperCard {
       width: 90%;
       &_card {
-        width: 350px;
-        height: 350px;
+        @include sizes(350px, 300px);
       }
     }
   }
@@ -172,8 +157,7 @@
   }
   .pap {
     &_wrapperCard_card {
-      width: 200px;
-      height: 200px;
+      @include sizes(200px);
     }
   }
   .solucionIntegral {
@@ -218,11 +202,9 @@
       width: 80%;
       &_wrapperCard {
         &_card {
-          width: 33vw;
-          height: 14vw;
+          @include sizes(33vw, 14vw);
           &_img {
-            width: 30vw;
-            height: 12vw;
+            @include sizes(30vw, 12vw);
           }
         }
       }
