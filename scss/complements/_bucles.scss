@@ -10,3 +10,11 @@
   background-size: cover;
   background-position: center;
 }
+%boton {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  animation: boton_pulse 2s infinite;
+}

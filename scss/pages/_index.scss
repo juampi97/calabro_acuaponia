@@ -12,12 +12,9 @@
       padding: 2.5rem 0 1rem 0;
     }
     &_boton {
-      width: 150px;
-      font-weight: 500;
-      padding: 15px 0;
+      @extend %boton;
+      width: 140px;
       border: solid 2px #ff7200;
-      border-radius: 5px;
-      animation: boton_pulse 2s infinite;
     }
   }
 }
@@ -62,12 +59,10 @@
         padding-bottom: 40px;
       }
       &_boton {
-        font-size: 0.9rem;
-        font-weight: 500;
-        padding: 15px 40px;
+        @extend %boton;
+        padding-left: 40px;
+        padding-right: 40px;
         border: 0;
-        border-radius: 5px;
-        animation: boton_pulse 2s infinite;
       }
     }
   }
@@ -91,12 +86,10 @@
         padding-bottom: 40px;
       }
       &_boton {
-        font-size: 1rem;
-        font-weight: 500;
-        padding: 15px 40px;
+        @extend %boton;
+        padding-left: 40px;
+        padding-right: 40px;
         border: solid 2px #ff7200;
-        border-radius: 5px;
-        animation: boton_pulse_v2 2s infinite;
       }
     }
   }

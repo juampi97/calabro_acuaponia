@@ -8729,12 +8729,8 @@ a {
       font-size: 1.8rem;
       padding: 2.5rem 0 1rem 0; }
     .main_home_wrapper_boton {
-      width: 150px;
-      font-weight: 500;
-      padding: 15px 0;
-      border: solid 2px #ff7200;
-      border-radius: 5px;
-      animation: boton_pulse 2s infinite; }
+      width: 140px;
+      border: solid 2px #ff7200; }
 
 .desafioGlobal {
   width: 90%; }
@@ -8771,12 +8767,9 @@ a {
       line-height: 1.5;
       padding-bottom: 40px; }
     .soluciones_wrapperDer_wrapperTxt_boton {
-      font-size: 0.9rem;
-      font-weight: 500;
-      padding: 15px 40px;
-      border: 0;
-      border-radius: 5px;
-      animation: boton_pulse 2s infinite; }
+      padding-left: 40px;
+      padding-right: 40px;
+      border: 0; }
 
 .tecnologia_wrapperDer {
   height: 20rem;
@@ -8795,12 +8788,9 @@ a {
       line-height: 1.5;
       padding-bottom: 40px; }
     .tecnologia_wrapperIzq_wrapperTxt_boton {
-      font-size: 1rem;
-      font-weight: 500;
-      padding: 15px 40px;
-      border: solid 2px #ff7200;
-      border-radius: 5px;
-      animation: boton_pulse_v2 2s infinite; }
+      padding-left: 40px;
+      padding-right: 40px;
+      border: solid 2px #ff7200; }
 
 .empresas {
   padding: 15px 0; }
@@ -9039,40 +9029,40 @@ a {
     margin-top: 25%;
     margin-bottom: 0px; } }
 
-.impactoAmbiental {
+.impacto {
   padding-bottom: 40px;
   padding-top: 30px; }
-  .impactoAmbiental_wrapperLine {
+  .impacto_wrapperLine {
     padding-left: 5%;
     padding-right: 70%; }
-  .impactoAmbiental_wrapperTxt {
+  .impacto_wrapperTxt {
     width: 100%; }
-    .impactoAmbiental_wrapperTxt_title {
+    .impacto_wrapperTxt_title {
       padding: 20px 5%;
       font-size: 2rem; }
-  .impactoAmbiental_container {
+  .impacto_container {
     width: 100%; }
-  .impactoAmbiental_wrapperCard_card {
+  .impacto_wrapperCard_card {
     position: relative;
     height: 40vw;
     width: 80vw;
     margin-bottom: 20px; }
-    .impactoAmbiental_wrapperCard_card .face {
+    .impacto_wrapperCard_card .face {
       position: absolute;
       height: 100%;
       width: 100%;
       backface-visibility: hidden;
       border-radius: 10px;
       overflow: hidden; }
-    .impactoAmbiental_wrapperCard_card .front {
+    .impacto_wrapperCard_card .front {
       transform: perspective(600px) rotateY(0deg);
       box-shadow: 0 5px 10px #000; }
-      .impactoAmbiental_wrapperCard_card .front img {
+      .impacto_wrapperCard_card .front img {
         position: absolute;
         height: 100%;
         width: 100%;
         object-fit: cover; }
-      .impactoAmbiental_wrapperCard_card .front h3, .impactoAmbiental_wrapperCard_card .front .h3 {
+      .impacto_wrapperCard_card .front h3, .impacto_wrapperCard_card .front .h3 {
         font-size: 1rem;
         line-height: 45px;
         position: absolute;
@@ -9080,54 +9070,7 @@ a {
         height: 45px;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.5); }
-    .impactoAmbiental_wrapperCard_card .back {
-      visibility: hidden; }
-
-.impactoSocial {
-  padding-top: 40px;
-  padding-bottom: 40px; }
-  .impactoSocial_wrapperLine {
-    padding-left: 5%;
-    padding-right: 70%; }
-  .impactoSocial_wrapperTxt {
-    width: 100%; }
-    .impactoSocial_wrapperTxt_title {
-      padding: 20px 5%;
-      font-size: 2rem; }
-  .impactoSocial_container {
-    width: 100%; }
-  .impactoSocial_wrapperCard_card {
-    position: relative;
-    height: 40vw;
-    width: 80vw;
-    margin-bottom: 20px; }
-    .impactoSocial_wrapperCard_card .face {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      backface-visibility: hidden;
-      border-radius: 10px;
-      overflow: hidden; }
-    .impactoSocial_wrapperCard_card .front {
-      transform: perspective(600px) rotateY(0deg);
-      box-shadow: 0 5px 10px #000; }
-      .impactoSocial_wrapperCard_card .front img {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        object-fit: cover; }
-      .impactoSocial_wrapperCard_card .front h3, .impactoSocial_wrapperCard_card .front .h3 {
-        font-size: 1rem;
-        line-height: 45px;
-        text-align: center;
-        margin-bottom: 0;
-        position: absolute;
-        bottom: 0;
-        height: 45px;
-        width: 100%;
-        color: #ffffff;
-        background-color: rgba(0, 0, 0, 0.5); }
-    .impactoSocial_wrapperCard_card .back {
+    .impacto_wrapperCard_card .back {
       visibility: hidden; }
 
 .alternativa {
@@ -9174,52 +9117,33 @@ a {
     padding: 20px 0 0 0; }
 
 @media (min-width: 768px) {
-  .impactoAmbiental_wrapperTxt_title {
+  .impacto_wrapperTxt_title {
     padding: 20px 5%;
     font-size: 3rem; }
-  .impactoAmbiental_wrapperCard {
+  .impacto_wrapperCard {
     display: grid;
     grid-template-areas: "impactoAmbiental-1 impactoAmbiental-2" "impactoAmbiental-3 impactoAmbiental-4";
     grid-template-rows: repeat(2fr, 1fr);
     grid-template-columns: repeat(2fr, 1fr);
     gap: 10px; }
-    .impactoAmbiental_wrapperCard_card {
+    .impacto_wrapperCard_card {
       height: 20vw;
-      width: 40vw; }
-  .impactoSocial_wrapperTxt_title {
-    padding: 20px 5%;
-    font-size: 3rem; }
-  .impactoSocial_wrapperCard {
-    display: grid;
-    grid-template-areas: "impactoAmbiental-1 impactoAmbiental-2" "impactoAmbiental-3 impactoAmbiental-4";
-    grid-template-rows: repeat(2fr, 1fr);
-    grid-template-columns: repeat(2fr, 1fr);
-    gap: 10px; }
-    .impactoSocial_wrapperCard_card {
-      height: 20vw;
-      width: 40vw; }
-  .impactoSocial_wrapperTxt_title {
-    font-size: 3rem; }
-  .s_tecnologia_wrapperLine {
-    padding-left: 5%;
-    padding-right: 80%; }
-  .s_tecnologia_wrapperTxt_title {
-    font-size: 3rem; } }
+      width: 40vw; } }
 
 @media (min-width: 992px) {
-  .impactoAmbiental {
+  .impacto {
     padding-top: 150px; }
-    .impactoAmbiental_wrapperTxt_title {
+    .impacto_wrapperTxt_title {
       padding-left: 10%;
       font-size: 4.5rem; }
-    .impactoAmbiental_wrapperCard {
+    .impacto_wrapperCard {
       gap: 50px; }
-      .impactoAmbiental_wrapperCard_card {
+      .impacto_wrapperCard_card {
         height: 15vw;
         width: 30vw; }
-        .impactoAmbiental_wrapperCard_card .face {
+        .impacto_wrapperCard_card .face {
           transition: 500ms; }
-        .impactoAmbiental_wrapperCard_card .back {
+        .impacto_wrapperCard_card .back {
           visibility: visible;
           font-size: 1rem;
           line-height: 1.5;
@@ -9227,41 +9151,13 @@ a {
           background: rgba(207, 117, 0, 0.671);
           padding: 15px;
           box-shadow: 0 5px 10px #000; }
-          .impactoAmbiental_wrapperCard_card .back h3, .impactoAmbiental_wrapperCard_card .back .h3 {
+          .impacto_wrapperCard_card .back h3, .impacto_wrapperCard_card .back .h3 {
             padding-bottom: 15px; }
-        .impactoAmbiental_wrapperCard_card:hover .front {
+        .impacto_wrapperCard_card:hover .front {
           transform: perspective(600px) rotateY(180deg); }
-        .impactoAmbiental_wrapperCard_card:hover .back {
+        .impacto_wrapperCard_card:hover .back {
           transform: perspective(600px) rotateY(360deg); }
-        .impactoAmbiental_wrapperCard_card_img {
-          padding: 0; }
-  .impactoSocial {
-    padding-top: 100px; }
-    .impactoSocial_wrapperTxt_title {
-      padding-left: 10%;
-      font-size: 4.5rem; }
-    .impactoSocial_wrapperCard {
-      gap: 50px; }
-      .impactoSocial_wrapperCard_card {
-        height: 15vw;
-        width: 30vw; }
-        .impactoSocial_wrapperCard_card .face {
-          transition: 500ms; }
-        .impactoSocial_wrapperCard_card .back {
-          visibility: visible;
-          font-size: 1rem;
-          line-height: 1.5;
-          transform: perspective(600px) rotateY(180deg);
-          background: rgba(207, 117, 0, 0.671);
-          padding: 15px;
-          box-shadow: 0 5px 10px #000; }
-          .impactoSocial_wrapperCard_card .back h3, .impactoSocial_wrapperCard_card .back .h3 {
-            padding-bottom: 15px; }
-        .impactoSocial_wrapperCard_card:hover .front {
-          transform: perspective(600px) rotateY(180deg); }
-        .impactoSocial_wrapperCard_card:hover .back {
-          transform: perspective(600px) rotateY(360deg); }
-        .impactoSocial_wrapperCard_card_img {
+        .impacto_wrapperCard_card_img {
           padding: 0; }
   .alternativa {
     padding: 100px 0; }
@@ -9329,14 +9225,14 @@ a {
   background-image: url(../img/solucion/agua_peces.jpg); }
 
 .solucionIntegral_wrapperTxt {
-  width: 90%;
+  width: 100%;
   padding: 20px 5%; }
   .solucionIntegral_wrapperTxt_title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: justify;
     padding-bottom: 20px; }
   .solucionIntegral_wrapperTxt_txt {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5;
     text-align: justify; }
 
@@ -9567,6 +9463,14 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
+
+.main_home_wrapper_boton, .soluciones_wrapperDer_wrapperTxt_boton, .tecnologia_wrapperIzq_wrapperTxt_boton {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  animation: boton_pulse 2s infinite; }
 
 @keyframes boton_pulse {
   0% {

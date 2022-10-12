@@ -1,4 +1,4 @@
-.impactoAmbiental {
+.impacto {
   padding-bottom: 40px;
   padding-top: 30px;
   &_wrapperLine {
@@ -47,6 +47,7 @@
     }
   }
 }
+<<<<<<< HEAD
 .impactoSocial {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -100,6 +101,8 @@
     }
   }
 }
+=======
+>>>>>>> version_2
 .alternativa {
   padding: 30px 0;
   &_wrapperLine {
@@ -158,7 +161,7 @@
 }
 
 @media (min-width: 768px) {
-  .impactoAmbiental {
+  .impacto {
     &_wrapperTxt_title {
       padding: 20px 5%;
       font-size: 3rem;
@@ -176,6 +179,7 @@
       }
     }
   }
+<<<<<<< HEAD
   .impactoSocial {
     &_wrapperTxt_title {
       padding: 20px 5%;
@@ -206,10 +210,12 @@
       font-size: 3rem;
     }
   }
+=======
+>>>>>>> version_2
 }
 
 @media (min-width: 992px) {
-  .impactoAmbiental {
+  .impacto {
     padding-top: 150px;
     &_wrapperTxt_title {
       padding-left: 10%;
@@ -245,6 +251,7 @@
       }
     }
   }
+<<<<<<< HEAD
   .impactoSocial {
     padding-top: 100px;
     &_wrapperTxt_title {
@@ -281,6 +288,8 @@
       }
     }
   }
+=======
+>>>>>>> version_2
   .alternativa {
     padding: 100px 0;
     &_container {
