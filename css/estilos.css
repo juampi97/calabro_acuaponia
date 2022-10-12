@@ -9225,14 +9225,14 @@ a {
   background-image: url(../img/solucion/agua_peces.jpg); }
 
 .solucionIntegral_wrapperTxt {
-  width: 90%;
+  width: 100%;
   padding: 20px 5%; }
   .solucionIntegral_wrapperTxt_title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: justify;
     padding-bottom: 20px; }
   .solucionIntegral_wrapperTxt_txt {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5;
     text-align: justify; }
 
