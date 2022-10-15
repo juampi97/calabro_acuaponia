@@ -9015,8 +9015,7 @@ a {
     visibility: hidden; }
     .equipo_contenedor_capa h3, .equipo_contenedor_capa .h3 {
       transition: all 500ms ease-out;
-      padding-top: 3%;
-      padding-bottom: 8%; }
+      padding: 3% 0; }
     .equipo_contenedor_capa p {
       visibility: visible;
       font-size: 1rem;
@@ -9026,7 +9025,7 @@ a {
     opacity: 1;
     visibility: visible; }
   .equipo .equipo_contenedor figure:hover > .equipo_contenedor_capa h3, .equipo .equipo_contenedor figure:hover > .equipo_contenedor_capa .h3 {
-    margin-top: 25%;
+    margin-top: 10%;
     margin-bottom: 0px; } }
 
 .impacto {
@@ -9128,7 +9127,12 @@ a {
     gap: 10px; }
     .impacto_wrapperCard_card {
       height: 20vw;
-      width: 40vw; } }
+      width: 40vw; }
+  .s_tecnologia_wrapperLine {
+    padding-left: 5%;
+    padding-right: 80%; }
+  .s_tecnologia_wrapperTxt_title {
+    font-size: 3rem; } }
 
 @media (min-width: 992px) {
   .impacto {

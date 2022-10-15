@@ -47,62 +47,6 @@
     }
   }
 }
-<<<<<<< HEAD
-.impactoSocial {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  &_wrapperLine {
-    padding-left: 5%;
-    padding-right: 70%;
-  }
-  &_wrapperTxt {
-    width: 100%;
-    &_title {
-      padding: 20px 5%;
-      font-size: 2rem;
-    }
-  }
-  &_container {
-    width: 100%;
-  }
-  &_wrapperCard_card {
-    position: relative;
-    @include sizes(80vw, 40vw);
-    margin-bottom: 20px;
-    & .face {
-      position: absolute;
-      @include sizes(100%);
-      backface-visibility: hidden;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    & .front {
-      transform: perspective(600px) rotateY(0deg);
-      box-shadow: 0 5px 10px #000;
-      & img {
-        position: absolute;
-        @include sizes(100%);
-        object-fit: cover;
-      }
-      & h3 {
-        @include txt_size(1rem, 45px);
-        text-align: center;
-        margin-bottom: 0;
-
-        position: absolute;
-        bottom: 0;
-        @include sizes(100%, 45px);
-        color: #ffffff;
-        background-color: rgba(0, 0, 0, 0.5);
-      }
-    }
-    & .back {
-      visibility: hidden;
-    }
-  }
-}
-=======
->>>>>>> version_2
 .alternativa {
   padding: 30px 0;
   &_wrapperLine {
@@ -179,28 +123,6 @@
       }
     }
   }
-<<<<<<< HEAD
-  .impactoSocial {
-    &_wrapperTxt_title {
-      padding: 20px 5%;
-      font-size: 3rem;
-    }
-    &_wrapperCard {
-      display: grid;
-      grid-template-areas:
-        "impactoAmbiental-1 impactoAmbiental-2"
-        "impactoAmbiental-3 impactoAmbiental-4";
-      grid-template-rows: repeat(2fr, 1fr);
-      grid-template-columns: repeat(2fr, 1fr);
-      gap: 10px;
-      &_card {
-        @include sizes(40vw, 20vw);
-      }
-    }
-    &_wrapperTxt_title {
-      font-size: 3rem;
-    }
-  }
   .s_tecnologia {
     &_wrapperLine {
       padding-left: 5%;
@@ -210,8 +132,6 @@
       font-size: 3rem;
     }
   }
-=======
->>>>>>> version_2
 }
 
 @media (min-width: 992px) {
@@ -251,45 +171,6 @@
       }
     }
   }
-<<<<<<< HEAD
-  .impactoSocial {
-    padding-top: 100px;
-    &_wrapperTxt_title {
-      padding-left: 10%;
-      font-size: 4.5rem;
-    }
-    &_wrapperCard {
-      gap: 50px;
-      &_card {
-        @include sizes(30vw, 15vw);
-        & .face {
-          transition: 500ms;
-        }
-        & .back {
-          visibility: visible;
-          @include txt_size(1rem, 1.5);
-          transform: perspective(600px) rotateY(180deg);
-          background: rgba(207, 117, 0, 0.671);
-          padding: 15px;
-          box-shadow: 0 5px 10px #000;
-          & h3 {
-            padding-bottom: 15px;
-          }
-        }
-        &:hover .front {
-          transform: perspective(600px) rotateY(180deg);
-        }
-        &:hover .back {
-          transform: perspective(600px) rotateY(360deg);
-        }
-        &_img {
-          padding: 0;
-        }
-      }
-    }
-  }
-=======
->>>>>>> version_2
   .alternativa {
     padding: 100px 0;
     &_container {

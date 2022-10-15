@@ -185,8 +185,7 @@
         visibility: hidden;
         & h3 {
           transition: all 500ms ease-out;
-          padding-top: 3%;
-          padding-bottom: 8%;
+          padding: 3% 0;
         }
         & p {
           visibility: visible;
@@ -201,7 +200,7 @@
       visibility: visible;
     }
     .equipo_contenedor figure:hover > .equipo_contenedor_capa h3 {
-      margin-top: 25%;
+      margin-top: 10%;
       margin-bottom: 0px;
     }
   }
