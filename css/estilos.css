@@ -9337,9 +9337,6 @@ a {
       min-height: 600px; }
       .servicios_wrapperCard_card {
         transition: all 1s; }
-        .servicios_wrapperCard_card:hover {
-          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-          transform: scale(1.1); }
   .especiesIntro_wrapperTxt {
     width: 70%;
     padding: 50px 0; }
