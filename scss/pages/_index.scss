@@ -1,7 +1,7 @@
 .main_home {
   background: linear-gradient(
-      rgba(189, 189, 189, 0.5),
-      rgba(187, 187, 187, 0.5)
+      rgba(189, 189, 189, 0.55),
+      rgba(187, 187, 187, 0.55)
     ),
     url(../img/inicio/home_peces.jpg);
   @extend %fondo-translucido;
@@ -9,6 +9,7 @@
     width: 90%;
     &_title {
       font-size: 1.8rem;
+      font-weight: 600;
       padding: 2.5rem 0 1rem 0;
     }
     &_boton {

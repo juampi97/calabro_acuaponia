@@ -8722,11 +8722,12 @@ a {
       margin-top: 0; } }
 
 .main_home {
-  background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(187, 187, 187, 0.5)), url(../img/inicio/home_peces.jpg); }
+  background: linear-gradient(rgba(189, 189, 189, 0.55), rgba(187, 187, 187, 0.55)), url(../img/inicio/home_peces.jpg); }
   .main_home_wrapper {
     width: 90%; }
     .main_home_wrapper_title {
       font-size: 1.8rem;
+      font-weight: 600;
       padding: 2.5rem 0 1rem 0; }
     .main_home_wrapper_boton {
       width: 140px;
@@ -9204,8 +9205,9 @@ a {
     width: 90%;
     padding-left: 5%; }
     .main_solucion_wrapperTxt_title {
-      font-size: 2rem;
-      line-height: 1.5; }
+      font-size: 1.7rem;
+      line-height: 1.5;
+      font-weight: 600; }
 
 .pap {
   width: 100%; }
@@ -9297,7 +9299,7 @@ a {
     width: 100%; }
     .pap_wrapperTxt_title {
       padding-left: 10%;
-      font-size: 2.5rem; }
+      font-size: 3rem; }
   .pap_wrapperCard {
     width: 80%;
     padding-bottom: 40px; }
@@ -9315,7 +9317,7 @@ a {
 
 @media (min-width: 992px) {
   .main_solucion_wrapperTxt {
-    width: 50%;
+    width: 70%;
     padding-left: 10%; }
     .main_solucion_wrapperTxt_title {
       font-size: 3rem; }

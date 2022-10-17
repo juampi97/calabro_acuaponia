@@ -9,7 +9,8 @@
     @include sizes(90%, 100%);
     padding-left: 5%;
     &_title {
-      @include txt_size(2rem, 1.5);
+      @include txt_size(1.7rem, 1.5);
+      font-weight: 600;
     }
   }
 }
@@ -119,7 +120,7 @@
       width: 100%;
       &_title {
         padding-left: 10%;
-        font-size: 2.5rem;
+        font-size: 3rem;
       }
     }
     &_wrapperCard {
@@ -148,7 +149,7 @@
 @media (min-width: 992px) {
   .main_solucion {
     &_wrapperTxt {
-      width: 50%;
+      width: 70%;
       padding-left: 10%;
       &_title {
         font-size: 3rem;
