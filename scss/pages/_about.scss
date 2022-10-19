@@ -20,37 +20,31 @@
 }
 .caracteristicasEmpresa {
   width: 100%;
+  padding-top: 40px;
   &_container {
     width: 90%;
     &_wrapperImg {
       width: 100%;
-      padding: 10px 0;
       &_img {
-        @include sizes(70vw, 35vw);
-        border-radius: 0 0 0 25px;
-        border-left: solid 20px #141638;
-        border-bottom: solid 20px #141638;
-        &-mod {
-          @include sizes(70vw, 35vw);
-          border-radius: 0 0 25px 0;
-          border-right: solid 20px #141638;
-          border-bottom: solid 20px #141638;
-        }
+        @include sizes(80vw, 60vw);
+        border-radius: 45% 15% / 20% 60%;
+        padding-bottom: 30px;
       }
     }
     &_wrapperTxt {
       width: 100%;
       &_title {
         font-size: 2rem;
-        padding-bottom: 10px;
+        padding-bottom: 6px;
       }
       &_subtitle {
         font-size: 1rem;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
       }
       &_txt {
         @include txt_size(1rem, 1.5);
         text-align: justify;
+        padding-bottom: 20px;
       }
     }
   }
@@ -156,14 +150,7 @@
       &_wrapperImg {
         width: 400px;
         &_img {
-          @include sizes(400px, 200px);
-          border-left: solid 30px #141638;
-          border-bottom: solid 30px #141638;
-          &-mod {
-            @include sizes(400px, 200px);
-            border-right: solid 30px #141638;
-            border-bottom: solid 30px #141638;
-          }
+          @include sizes(400px, 300px);
         }
       }
       &_wrapperTxt {

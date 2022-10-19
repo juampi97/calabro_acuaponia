@@ -8890,36 +8890,30 @@ a {
       text-align: justify; }
 
 .caracteristicasEmpresa {
-  width: 100%; }
+  width: 100%;
+  padding-top: 40px; }
   .caracteristicasEmpresa_container {
     width: 90%; }
     .caracteristicasEmpresa_container_wrapperImg {
-      width: 100%;
-      padding: 10px 0; }
+      width: 100%; }
       .caracteristicasEmpresa_container_wrapperImg_img {
-        height: 35vw;
-        width: 70vw;
-        border-radius: 0 0 0 25px;
-        border-left: solid 20px #141638;
-        border-bottom: solid 20px #141638; }
-        .caracteristicasEmpresa_container_wrapperImg_img-mod {
-          height: 35vw;
-          width: 70vw;
-          border-radius: 0 0 25px 0;
-          border-right: solid 20px #141638;
-          border-bottom: solid 20px #141638; }
+        height: 60vw;
+        width: 80vw;
+        border-radius: 45% 15% / 20% 60%;
+        padding-bottom: 30px; }
     .caracteristicasEmpresa_container_wrapperTxt {
       width: 100%; }
       .caracteristicasEmpresa_container_wrapperTxt_title {
         font-size: 2rem;
-        padding-bottom: 10px; }
+        padding-bottom: 6px; }
       .caracteristicasEmpresa_container_wrapperTxt_subtitle {
         font-size: 1rem;
-        padding-bottom: 10px; }
+        padding-bottom: 20px; }
       .caracteristicasEmpresa_container_wrapperTxt_txt {
         font-size: 1rem;
         line-height: 1.5;
-        text-align: justify; }
+        text-align: justify;
+        padding-bottom: 20px; }
 
 .wrapperLine {
   height: 20px;
@@ -8997,15 +8991,8 @@ a {
       .caracteristicasEmpresa_container_wrapperImg {
         width: 400px; }
         .caracteristicasEmpresa_container_wrapperImg_img {
-          height: 200px;
-          width: 400px;
-          border-left: solid 30px #141638;
-          border-bottom: solid 30px #141638; }
-          .caracteristicasEmpresa_container_wrapperImg_img-mod {
-            height: 200px;
-            width: 400px;
-            border-right: solid 30px #141638;
-            border-bottom: solid 30px #141638; }
+          height: 300px;
+          width: 400px; }
       .caracteristicasEmpresa_container_wrapperTxt {
         width: 450px; }
         .caracteristicasEmpresa_container_wrapperTxt_title {
