@@ -8725,7 +8725,7 @@ a {
   background: linear-gradient(rgba(189, 189, 189, 0.55), rgba(187, 187, 187, 0.55)), url(../img/inicio/home_peces.png); }
   .main_home_wrapper {
     padding-top: 30px;
-    width: 90%; }
+    width: 80%; }
     .main_home_wrapper_title {
       font-size: 2rem; }
     .main_home_wrapper_txt {
@@ -8813,7 +8813,7 @@ a {
 
 @media (min-width: 768px) {
   .main_home_wrapper_title {
-    font-size: 3rem; }
+    font-size: 2.8rem; }
   .main_home_wrapper_txt {
     font-size: 1.2rem; }
   .desafioGlobal_wrapperTxt {
@@ -8969,6 +8969,10 @@ a {
         visibility: hidden; }
 
 @media (min-width: 768px) {
+  .main_aboutUs_wrapper_title {
+    font-size: 3rem; }
+  .main_aboutUs_wrapper_txt {
+    font-size: 1.2rem; }
   .equipo .equipo_contenedor {
     padding-left: 10px; }
   .equipo .equipo_contenedor figure {
@@ -9208,9 +9212,10 @@ a {
 .main_solucion {
   background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(187, 187, 187, 0.5)), url(../img/solucion/fondas_ras.png); }
   .main_solucion_wrapper {
-    width: 90%; }
+    width: 80%; }
     .main_solucion_wrapper_title {
-      font-size: 1.8rem; }
+      font-size: 1.9rem;
+      padding-top: 25px; }
     .main_solucion_wrapper_txt {
       font-size: 1rem;
       padding-top: 25px;
@@ -9302,6 +9307,10 @@ a {
       line-height: 1.4; }
 
 @media (min-width: 768px) {
+  .main_solucion_wrapper_title {
+    font-size: 3rem; }
+  .main_solucion_wrapper_txt {
+    font-size: 1.2rem; }
   .pap_wrapperTxt {
     width: 100%; }
     .pap_wrapperTxt_title {

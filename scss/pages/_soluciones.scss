@@ -6,9 +6,10 @@
     url(../img/solucion/fondas_ras.png);
   @extend %fondo-translucido;
   &_wrapper {
-    width: 90%;
+    width: 80%;
     &_title {
-      font-size: 1.8rem;
+      font-size: 1.9rem;
+      padding-top: 25px;
     }
     &_txt {
       font-size: 1rem;
@@ -118,6 +119,16 @@
 }
 
 @media (min-width: 768px) {
+  .main_solucion {
+    &_wrapper {
+      &_title {
+        font-size: 3rem;
+      }
+      &_txt {
+        font-size: 1.2rem;
+      }
+    }
+  }
   .pap {
     &_wrapperTxt {
       width: 100%;
