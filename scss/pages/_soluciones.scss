@@ -7,9 +7,9 @@
   @extend %fondo-translucido;
   &_wrapper {
     width: 80%;
+    padding-top: 40px;
     &_title {
       font-size: 1.9rem;
-      padding-top: 25px;
     }
     &_txt {
       font-size: 1rem;

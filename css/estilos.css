@@ -8724,13 +8724,13 @@ a {
 .main_home {
   background: linear-gradient(rgba(189, 189, 189, 0.55), rgba(187, 187, 187, 0.55)), url(../img/inicio/home_peces.png); }
   .main_home_wrapper {
-    padding-top: 30px;
-    width: 80%; }
+    width: 80%;
+    padding-top: 40px; }
     .main_home_wrapper_title {
       font-size: 2rem; }
     .main_home_wrapper_txt {
       font-size: 1rem;
-      padding-top: 25px;
+      padding-top: 20px;
       text-align: justify; }
     .main_home_wrapper_boton {
       width: 140px;
@@ -8883,7 +8883,7 @@ a {
   .main_aboutUs_wrapper {
     width: 80%; }
     .main_aboutUs_wrapper_title {
-      font-size: 1.8rem; }
+      font-size: 2rem; }
     .main_aboutUs_wrapper_txt {
       font-size: 1rem;
       padding-top: 25px;
@@ -9212,10 +9212,10 @@ a {
 .main_solucion {
   background: linear-gradient(rgba(189, 189, 189, 0.5), rgba(187, 187, 187, 0.5)), url(../img/solucion/fondas_ras.png); }
   .main_solucion_wrapper {
-    width: 80%; }
+    width: 80%;
+    padding-top: 40px; }
     .main_solucion_wrapper_title {
-      font-size: 1.9rem;
-      padding-top: 25px; }
+      font-size: 1.9rem; }
     .main_solucion_wrapper_txt {
       font-size: 1rem;
       padding-top: 25px;
