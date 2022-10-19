@@ -3,14 +3,17 @@
       rgba(189, 189, 189, 0.5),
       rgba(187, 187, 187, 0.5)
     ),
-    url(../img/solucion/fondas_ras.jpg);
+    url(../img/solucion/fondas_ras.png);
   @extend %fondo-translucido;
-  &_wrapperTxt {
-    @include sizes(90%, 100%);
-    padding-left: 5%;
+  &_wrapper {
+    width: 90%;
     &_title {
-      @include txt_size(1.7rem, 1.5);
-      font-weight: 600;
+      font-size: 1.8rem;
+    }
+    &_txt {
+      font-size: 1rem;
+      padding-top: 25px;
+      text-align: justify;
     }
   }
 }
@@ -148,11 +151,13 @@
 
 @media (min-width: 992px) {
   .main_solucion {
-    &_wrapperTxt {
-      width: 70%;
-      padding-left: 10%;
+    &_wrapper {
+      width: 80%;
       &_title {
-        font-size: 3rem;
+        font-size: 4rem;
+      }
+      &_txt {
+        font-size: 1.5rem;
       }
     }
   }

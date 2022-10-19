@@ -3,14 +3,18 @@
       rgba(189, 189, 189, 0.55),
       rgba(187, 187, 187, 0.55)
     ),
-    url(../img/inicio/home_peces.jpg);
+    url(../img/inicio/home_peces.png);
   @extend %fondo-translucido;
   &_wrapper {
+    padding-top: 30px;
     width: 90%;
     &_title {
-      font-size: 1.8rem;
-      font-weight: 600;
-      padding: 2.5rem 0 1rem 0;
+      font-size: 2rem;
+    }
+    &_txt {
+      font-size: 1rem;
+      padding-top: 25px;
+      text-align: justify;
     }
     &_boton {
       @extend %boton;
@@ -116,10 +120,14 @@
 }
 
 @media (min-width: 768px) {
-  .main_home_wrapper {
-    width: 75%;
-    &_title {
-      font-size: 3rem;
+  .main_home {
+    &_wrapper {
+      &_title {
+        font-size: 3rem;
+      }
+      &_txt {
+        font-size: 1.2rem;
+      }
     }
   }
   .desafioGlobal {
@@ -139,8 +147,16 @@
 }
 
 @media (min-width: 992px) {
-  .main_home_wrapper_title {
-    font-size: 3.2rem;
+  .main_home {
+    &_wrapper {
+      width: 80%;
+      &_title {
+        font-size: 4rem;
+      }
+      &_txt {
+        font-size: 1.5rem;
+      }
+    }
   }
   .desafioGlobal {
     &_wrapperTxt {
