@@ -27,8 +27,8 @@
       overflow: hidden;
     }
     & .front {
-      // transform: perspective(600px) rotateY(0deg);
-      // box-shadow: 0 5px 10px #000;
+      transform: perspective(600px) rotateY(0deg);
+      box-shadow: 0 5px 10px #000;
       & img {
         position: absolute;
         @include sizes(100%);

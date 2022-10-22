@@ -9052,19 +9052,22 @@ a {
       backface-visibility: hidden;
       border-radius: 10px;
       overflow: hidden; }
-    .impacto_wrapperCard_card .front img {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      object-fit: cover; }
-    .impacto_wrapperCard_card .front h3, .impacto_wrapperCard_card .front .h3 {
-      font-size: 1rem;
-      line-height: 45px;
-      position: absolute;
-      bottom: 0;
-      height: 45px;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.5); }
+    .impacto_wrapperCard_card .front {
+      transform: perspective(600px) rotateY(0deg);
+      box-shadow: 0 5px 10px #000; }
+      .impacto_wrapperCard_card .front img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover; }
+      .impacto_wrapperCard_card .front h3, .impacto_wrapperCard_card .front .h3 {
+        font-size: 1rem;
+        line-height: 45px;
+        position: absolute;
+        bottom: 0;
+        height: 45px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5); }
     .impacto_wrapperCard_card .back {
       visibility: hidden; }
 
